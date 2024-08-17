@@ -11,8 +11,13 @@ const mainScreen = document.getElementById("mainScreen");
 
 // 画像ファイル名の配列を作成
 const images = [
-    "images/test.jpg",
-    "images/test2.jpg",
+    "images/tsuzu1.jpg",
+    "images/tsuzu2.jpg",
+    "images/tsuzu3.jpg",
+    "images/tsuzu4.jpg",
+    "images/tsuzu5.jpg",
+    "images/tsuzu6.jpg",
+
     // ここに200枚の画像ファイル名を追加
     // "images/image3.png",
     // ...
