@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像ガチャアプリ</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="titleScreen" class="container">
+        <h1>画像ガチャアプリへようこそ</h1>
+        <img id="titleImage" src="images/title.jpg" alt="タイトル画像">
+        <button id="startButton">スタート</button>
+    </div>
+    
+    <div id="mainScreen" class="container" style="display: none;">
+        <h1>画像ガチャ</h1>
+        <button id="drawButton">ガチャを引く</button>
+        <div id="imageContainer"></div>
+        <div id="actionButtons" style="display: none;">
+            <button id="retryButton">もう一度引く</button>
+            <button id="shareButton">シェアする</button>
+            <button id="returnButton">タイトルに戻る</button>
+        </div>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>

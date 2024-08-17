@@ -1,0 +1,73 @@
+/* タイトル画面のスタイル */
+#titleScreen {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* タイトル画面の画像スタイル */
+#titleImage {
+    max-width: 100%;      /* 画像の幅をコンテナ内に収める */
+    height: auto;         /* アスペクト比を保持 */
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* ガチャ画面の画像スタイル */
+#imageContainer img {
+    max-width: 100%;      /* 画像の幅を親コンテナ内に収める */
+    max-height: 300px;    /* 最大高さを300pxに制限 */
+    height: auto;         /* アスペクト比を保持 */
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ボタンスタイル */
+button {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* メディアクエリ: スマホ向けのスタイル */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    #titleImage {
+        max-width: 100%;  /* スマホでは画像の幅を100%に調整 */
+        max-height: 150px; /* 画像の高さを最大150pxに制限 */
+    }
+
+    #imageContainer img {
+        max-width: 100%;  /* 画像の幅をコンテナに収める */
+        max-height: 200px; /* 画像の高さを200pxに制限 */
+    }
+
+    button {
+        padding: 15px;
+        font-size: 18px;
+        max-width: 100%;
+    }
+}
