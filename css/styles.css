@@ -29,6 +29,10 @@ body {
     overflow: visible; /* はみ出しを隠す */
 }
 
+#titleText {
+    
+}
+
 /* タイトル画面の画像スタイル */
 #titleImage {
     max-width: 60%;
@@ -166,6 +170,20 @@ button {
     opacity: 1; /* 初期は表示 */
 }
 
+/* 各ボタンの色を設定 */
+.retry-button {
+    background-color: #28a745; /* 緑色 */
+    width: 60%;
+}
+
+.share-button {
+    background-color: #4ca3ff; /* 青色 */
+}
+
+.title-button {
+    background-color: #434340; /* 黄色 */
+}
+
 /* ボタンを非表示にするためのクラス */
 .button-hidden {
     opacity: 0; /* 非表示 */
@@ -216,3 +234,9 @@ button:active {
 .hidden {
     display: none;
 }
+
+/* 初期状態で非表示にするクラス */
+.vishidden {
+    visibility: hidden;
+}
+

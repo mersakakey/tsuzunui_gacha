@@ -8,13 +8,13 @@
 </head>
 <body>
     <div id="titleScreen" class="container">
-        <h2 id="titleText">まいにちつづぬいガチャ</h2>
+        <h2>まいにちつづぬいガチャ</h2>
         <img id="titleImage" src="images/title.jpg" alt="タイトル画像">
         <button id="startButton">スタート</button>
     </div>
     
     <div id="mainScreen" class="container" style="display: none;">
-        <h2>まいにちつづぬいガチャ</h2>
+        <h2 id="titleText">まいにちつづぬいガチャ</h2>
         <button id="drawButton">ガチャを引く</button>
         <div id="imageContainer">
             <div id="cardPack"></div>
@@ -22,9 +22,9 @@
             <img id="resultImage" src="" alt="ガチャ結果" style="display: none;">
         </div>
         <div id="actionButtons" style="display: none;">
-            <button id="retryButton">もう一度引く</button>
-            <button id="shareButton">シェアする</button>
-            <button id="returnButton">タイトルに戻る</button>
+            <button id="retryButton" class="retry-button">もう一度引く</button>
+            <button id="shareButton" class="share-button">シェアする</button>
+            <button id="returnButton" class="title-button">タイトルに戻る</button>
         </div>
     </div>
 

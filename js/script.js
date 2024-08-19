@@ -9,6 +9,7 @@ const images = [
 ];
 
 // HTML要素の取得
+const titleText = document.getElementById('titleText');
 const startButton = document.getElementById("startButton");
 const drawButton = document.getElementById("drawButton");
 const retryButton = document.getElementById("retryButton");
@@ -38,6 +39,7 @@ function drawGacha() {
     retryButton.style.visibility = "hidden";
     shareButton.style.visibility = "hidden";
     returnButton.style.visibility = "hidden";
+    titleText.classList.add('vishidden'); // タイトルテキストを非表示
 
     // カードパックと青色のカード、結果画像の初期設定
     cardPack.style.display = "block";
@@ -71,6 +73,7 @@ function drawGacha() {
         retryButton.style.visibility = "visible";
         shareButton.style.visibility = "visible";
         returnButton.style.visibility = "visible";
+        titleText.classList.remove('vishidden'); // タイトルテキストを再表示
     }, 6500); // ここも全アニメーションの合計時間に合わせて調整
 }
 
