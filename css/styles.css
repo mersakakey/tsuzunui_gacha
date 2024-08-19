@@ -240,3 +240,29 @@ button:active {
     visibility: hidden;
 }
 
+/* ボタンを非表示にするためのクラス（瞬時に非表示） */
+.fading-hidden {
+    opacity: 0; /* 非表示 */
+    transition: none; /* トランジションなし */
+}
+
+/* ボタンを表示するためのクラス（スムーズに表示） */
+.fading-visible {
+    opacity: 1; /* 表示 */
+    transition: opacity 1s ease-in-out; /* 透明度のトランジション */
+}
+
+/* キラキラエフェクトのスタイル */
+.sparkle-effect {
+    position: absolute;
+    top: 30%;
+
+    width: 100%;
+    height: 100%; /* サイズは調整可能 */
+    width: height;
+    background: radial-gradient(circle, rgba(234, 255, 3, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none; /* エフェクトがクリックできないように */
+}
+

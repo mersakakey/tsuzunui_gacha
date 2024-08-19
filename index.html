@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>まいにちつづぬいガチャ</title>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -20,11 +21,12 @@
             <div id="cardPack"></div>
             <div id="blueCard"></div>
             <img id="resultImage" src="" alt="ガチャ結果" style="display: none;">
+            <div id="sparkleEffect" class="sparkle-effect"></div>
         </div>
         <div id="actionButtons" style="display: none;">
             <button id="retryButton" class="retry-button">もう一度引く</button>
-            <button id="shareButton" class="share-button">シェアする</button>
             <button id="returnButton" class="title-button">タイトルに戻る</button>
+            <button id="shareButton" class="share-button">シェアする</button>
         </div>
     </div>
 

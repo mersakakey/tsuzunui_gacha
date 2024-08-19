@@ -36,19 +36,20 @@ function drawGacha() {
 
     // ボタンを非表示にする
     drawButton.style.display = "none";
-    retryButton.style.visibility = "hidden";
-    shareButton.style.visibility = "hidden";
-    returnButton.style.visibility = "hidden";
-    titleText.classList.add('vishidden'); // タイトルテキストを非表示
+    titleText.classList.remove('fading-visible');
+    actionButtons.classList.remove('fading-visible');
+    actionButtons.classList.add('fading-hidden');
+    titleText.classList.add('fading-hidden'); // タイトルテキストを非表示
 
     // カードパックと青色のカード、結果画像の初期設定
     cardPack.style.display = "block";
     blueCard.style.display = "block";
     resultImage.style.display = "none"; // 最初は結果画像を非表示
+    actionButtons.style.display = "none"; // アクションボタンを非表示
 
     // アニメーションをリセットして再適用
     cardPack.style.animation = "showPack 3s forwards";
-    blueCard.style.animation = "showBlueCard 3s forwards 1.5s";
+    blueCard.style.animation = "showBlueCard 4.5s forwards 1.5s";
 
     // ランダムに選択された画像を結果画像にセット
     resultImage.src = selectedImage;
@@ -56,26 +57,28 @@ function drawGacha() {
     // 早めに結果画像を表示
     setTimeout(() => {
         resultImage.style.display = "block";
-        resultImage.style.animation = "showResultImage 2s forwards 2s";
+        resultImage.style.animation = "showResultImage 2s forwards 3s";
     }, 1500);
 
     // アニメーションが終わったら、カードパックと青色のカードを非表示
     setTimeout(() => {
         cardPack.style.display = "none";
         blueCard.style.display = "none";
+        // showSparkleEffect()
 
-        // アクションボタンを表示
+        // アクションボタンを表示するタイミングを調整
         actionButtons.style.display = "block";
-    }, 4500); // ここはアニメーションの終了時間に合わせて調整
+    }, 6500); // ここはアニメーションの終了時間に合わせて調整
 
     // すべてのボタンを再表示するタイミングを調整
     setTimeout(() => {
-        retryButton.style.visibility = "visible";
-        shareButton.style.visibility = "visible";
-        returnButton.style.visibility = "visible";
-        titleText.classList.remove('vishidden'); // タイトルテキストを再表示
-    }, 6500); // ここも全アニメーションの合計時間に合わせて調整
+        actionButtons.classList.remove('fading-hidden');
+        actionButtons.classList.add('fading-visible');
+        titleText.classList.remove('fading-hidden'); // タイトルテキストを再表示
+        titleText.classList.add('fading-visible');
+    }, 8500); // ここも全アニメーションの合計時間に合わせて調整
 }
+
 
 
 
@@ -122,14 +125,38 @@ function resetStyles() {
 }
 
 
-
-
 // シェアする関数
 function shareResult() {
     const url = encodeURIComponent(window.location.href);
     const text = encodeURIComponent("ガチャを引いた結果をシェアしよう！");
     const twitterUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
     window.open(twitterUrl, "_blank");
+}
+
+// キラキラエフェクトを表示する関数
+function showSparkleEffect() {
+    const sparkleEffect = document.getElementById('sparkleEffect');
+    
+    // Anime.jsでアニメーションを設定
+    anime({
+        targets: sparkleEffect,
+        scale: [0, 1.5],
+        opacity: [0, 1],
+        duration: 1000,
+        easing: 'easeOutSine',
+        complete: function() {
+            // アニメーションが終わった後にエフェクトを非表示にする
+            setTimeout(() => {
+                anime({
+                    targets: sparkleEffect,
+                    scale: [1.5, 0],
+                    opacity: [1, 0],
+                    duration: 1000,
+                    easing: 'easeInSine'
+                });
+            }, 500);
+        }
+    });
 }
 
 // イベントリスナーの設定
