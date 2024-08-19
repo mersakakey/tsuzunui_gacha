@@ -21,10 +21,12 @@ body {
     text-align: center;
     padding: 20px;
     width: 100%;
+    height: 100%;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: relative;
+    overflow: visible; /* はみ出しを隠す */
 }
 
 /* タイトル画面の画像スタイル */
@@ -40,8 +42,8 @@ body {
     position: relative;
     width: 100%;
     height: 600px;
-    margin-top: 20px;
-    overflow: hidden;
+    margin-top: 20pt;
+    overflow: visible; /* はみ出しを隠す */
 }
 
 /* カードパックのスタイル */
@@ -49,10 +51,10 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 300px;
-    height: 450px;
+    width: 200px; /* サイズを調整 */
+    height: 300px; /* サイズを調整 */
     background: url('images/card-pack.png') no-repeat center center;
-    background-size: contain;
+    background-size: contain; /* 画像サイズ調整 */
     opacity: 0;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -60,40 +62,32 @@ body {
     animation: none;
 }
 
-/* アニメーションを適用するクラス */
-.show-card-pack {
-    display: block; /* 表示する */
-    animation: showPack 4s forwards; /* アニメーションの持続時間を調整 */
-}
-
 /* 青色のカードのスタイル */
 #blueCard {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 180px; /* サイズを調整 */
-    height: 270px; /* サイズを調整 */
+    width: 250px; /* サイズを調整 */
+    height: 375px; /* サイズを調整 */
     background-color: rgba(0, 0, 255, 0.5);
     opacity: 0;
     transform: translate(-50%, -50%);
     z-index: 2;
-    display: none; /* 初期状態で非表示 */
-    animation: none; /* アニメーションなし */
+    display: none;
+    animation: none;
 }
-
 
 /* ガチャ結果の画像 */
 #resultImage {
     position: absolute;
     top: 50%;
     left: 50%;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%; /* サイズを調整 */
+    max-height: 80%; /* サイズを調整 */
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.8);
     z-index: 3;
 }
-
 
 /* アニメーションの定義 */
 @keyframes showPack {
@@ -140,7 +134,7 @@ body {
 /* アニメーションを適用するクラス */
 .show-card-pack {
     display: block;
-    animation: showPack 3s forwards;
+    animation: showPack 4s forwards;
 }
 
 .show-blue-card {
@@ -152,8 +146,6 @@ body {
     display: block;
     animation: showResultImage 2s forwards;
 }
-
-
 
 /* ボタンスタイル */
 button {
@@ -176,6 +168,7 @@ button {
     opacity: 0; /* 非表示 */
 }
 
+/* ボタンのスタイル (ホバーとアクティブ) */
 button:hover {
     background-color: #218838;
 }
@@ -196,23 +189,23 @@ button:active {
     }
 
     #imageContainer {
-        height: 200px;
+        height: 50%;
     }
 
-    #cardPack,
+    #cardPack {
+        width: 300px; /* サイズを調整 */
+        height: 450px; /* サイズを調整 */
+    }
+
     #blueCard {
-        width: 100px;
-        height: 150px;
+        width: 150px; /* サイズを調整 */
+        height: 225px; /* サイズを調整 */
     }
 
     button {
         padding: 15px;
         font-size: 18px;
         max-width: 100%;
-    }
-    #drawButton {
-        display: block;
-        margin: 20px auto; /* 中央寄せ */
     }
 }
 
