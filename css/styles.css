@@ -1,34 +1,159 @@
-/* タイトル画面のスタイル */
-#titleScreen {
+/* 全体のリセット */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* ページ全体のスタイル */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* コンテナのスタイル */
+.container {
     text-align: center;
-    margin-top: 50px;
     padding: 20px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 /* タイトル画面の画像スタイル */
 #titleImage {
-    max-width: 100%;      /* 画像の幅をコンテナ内に収める */
-    height: auto;         /* アスペクト比を保持 */
+    max-width: 100%;
+    height: auto;
     margin-top: 20px;
     border-radius: 8px;
 }
 
-/* ガチャ画面の画像スタイル */
-#imageContainer img {
-    max-width: 100%;      /* 画像の幅を親コンテナ内に収める */
-    max-height: 300px;    /* 最大高さを300pxに制限 */
-    height: auto;         /* アスペクト比を保持 */
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* ガチャ画面のコンテナスタイル */
+#imageContainer {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    overflow: hidden;
 }
+
+/* カードパックのスタイル */
+#cardPack {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 450px;
+    background: url('images/card-pack.png') no-repeat center center;
+    background-size: contain;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: none;
+    animation: none;
+}
+
+/* アニメーションを適用するクラス */
+.show-card-pack {
+    display: block; /* 表示する */
+    animation: showPack 4s forwards; /* アニメーションの持続時間を調整 */
+}
+
+/* 青色のカードのスタイル */
+#blueCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 180px; /* サイズを調整 */
+    height: 270px; /* サイズを調整 */
+    background-color: rgba(0, 0, 255, 0.5);
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: none; /* 初期状態で非表示 */
+    animation: none; /* アニメーションなし */
+}
+
+
+/* ガチャ結果の画像 */
+#resultImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+    z-index: 3;
+}
+
+
+/* アニメーションの定義 */
+@keyframes showPack {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) translateY(0px);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) translateY(50px);
+    }
+}
+
+@keyframes showBlueCard {
+    0% {
+        opacity: 0;
+        box-shadow: 0 0 0 rgba(0, 0, 255, 0);
+    }
+    50% {
+        opacity: 1;
+        box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+    }
+    100% {
+        opacity: 0;
+        box-shadow: 0 0 0 rgba(0, 0, 255, 0);
+    }
+}
+
+@keyframes showResultImage {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+/* アニメーションを適用するクラス */
+.show-card-pack {
+    display: block;
+    animation: showPack 3s forwards;
+}
+
+.show-blue-card {
+    display: block;
+    animation: showBlueCard 4s forwards 1.5s; /* 遅延を追加 */
+}
+
+.show-result-image {
+    display: block;
+    animation: showResultImage 2s forwards;
+}
+
+
 
 /* ボタンスタイル */
 button {
@@ -39,14 +164,24 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, opacity 1s ease-in-out; /* 背景色と透明度のトランジション */
     margin-top: 20px;
     width: 100%;
     max-width: 300px;
+    opacity: 1; /* 初期は表示 */
+}
+
+/* ボタンを非表示にするためのクラス */
+.button-hidden {
+    opacity: 0; /* 非表示 */
 }
 
 button:hover {
     background-color: #218838;
+}
+
+button:active {
+    transform: scale(0.95);
 }
 
 /* メディアクエリ: スマホ向けのスタイル */
@@ -56,13 +191,18 @@ button:hover {
     }
 
     #titleImage {
-        max-width: 100%;  /* スマホでは画像の幅を100%に調整 */
-        max-height: 150px; /* 画像の高さを最大150pxに制限 */
+        max-width: 100%;
+        max-height: 400px;
     }
 
-    #imageContainer img {
-        max-width: 100%;  /* 画像の幅をコンテナに収める */
-        max-height: 200px; /* 画像の高さを200pxに制限 */
+    #imageContainer {
+        height: 200px;
+    }
+
+    #cardPack,
+    #blueCard {
+        width: 100px;
+        height: 150px;
     }
 
     button {
@@ -70,4 +210,13 @@ button:hover {
         font-size: 18px;
         max-width: 100%;
     }
+    #drawButton {
+        display: block;
+        margin: 20px auto; /* 中央寄せ */
+    }
+}
+
+/* 初期状態で非表示にするクラス */
+.hidden {
+    display: none;
 }

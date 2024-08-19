@@ -1,3 +1,13 @@
+// 画像ファイル名の配列を作成
+const images = [
+    "images/tsuzu1.jpg",
+    "images/tsuzu2.jpg",
+    "images/tsuzu3.jpg",
+    "images/tsuzu4.jpg",
+    "images/tsuzu5.jpg",
+    "images/tsuzu6.jpg",
+];
+
 // HTML要素の取得
 const startButton = document.getElementById("startButton");
 const drawButton = document.getElementById("drawButton");
@@ -8,20 +18,9 @@ const imageContainer = document.getElementById("imageContainer");
 const actionButtons = document.getElementById("actionButtons");
 const titleScreen = document.getElementById("titleScreen");
 const mainScreen = document.getElementById("mainScreen");
-
-// 画像ファイル名の配列を作成
-const images = [
-    "images/tsuzu1.jpg",
-    "images/tsuzu2.jpg",
-    "images/tsuzu3.jpg",
-    "images/tsuzu4.jpg",
-    "images/tsuzu5.jpg",
-    "images/tsuzu6.jpg",
-
-    // ここに200枚の画像ファイル名を追加
-    // "images/image3.png",
-    // ...
-];
+const cardPack = document.getElementById("cardPack");
+const blueCard = document.getElementById("blueCard");
+const resultImage = document.getElementById("resultImage");
 
 // タイトル画面からメイン画面に遷移する関数
 function startApp() {
@@ -33,24 +32,94 @@ function startApp() {
 function drawGacha() {
     const randomIndex = Math.floor(Math.random() * images.length);
     const selectedImage = images[randomIndex];
-    imageContainer.innerHTML = `<img src="${selectedImage}" alt="ガチャ結果">`;
+
+    // ボタンを非表示にする
     drawButton.style.display = "none";
-    actionButtons.style.display = "block";
+    retryButton.style.visibility = "hidden";
+    shareButton.style.visibility = "hidden";
+    returnButton.style.visibility = "hidden";
+
+    // カードパックと青色のカード、結果画像の初期設定
+    cardPack.style.display = "block";
+    blueCard.style.display = "block";
+    resultImage.style.display = "none"; // 最初は結果画像を非表示
+
+    // アニメーションをリセットして再適用
+    cardPack.style.animation = "showPack 3s forwards";
+    blueCard.style.animation = "showBlueCard 3s forwards 1.5s";
+
+    // ランダムに選択された画像を結果画像にセット
+    resultImage.src = selectedImage;
+
+    // 早めに結果画像を表示
+    setTimeout(() => {
+        resultImage.style.display = "block";
+        resultImage.style.animation = "showResultImage 2s forwards 2s";
+    }, 1500);
+
+    // アニメーションが終わったら、カードパックと青色のカードを非表示
+    setTimeout(() => {
+        cardPack.style.display = "none";
+        blueCard.style.display = "none";
+
+        // アクションボタンを表示
+        actionButtons.style.display = "block";
+    }, 4500); // ここはアニメーションの終了時間に合わせて調整
+
+    // すべてのボタンを再表示するタイミングを調整
+    setTimeout(() => {
+        retryButton.style.visibility = "visible";
+        shareButton.style.visibility = "visible";
+        returnButton.style.visibility = "visible";
+    }, 6500); // ここも全アニメーションの合計時間に合わせて調整
 }
+
+
 
 // もう一度引く関数
 function retryGacha() {
     drawGacha();
 }
 
-// タイトルに戻る関数
 function returnToTitle() {
     mainScreen.style.display = "none";
     titleScreen.style.display = "block";
+    
+    // 要素の初期化
     drawButton.style.display = "block";
     actionButtons.style.display = "none";
-    imageContainer.innerHTML = ""; // 画像をクリア
+    
+    // 全てのスタイルをリセット
+    resetStyles();
+    
+    // レイアウトの再計算
+    drawButton.offsetHeight; // 強制的にレイアウトを再計算
 }
+
+
+function resetStyles() {
+    // ガチャ画面の要素をリセット
+    resultImage.style.display = "none";
+    resultImage.style.opacity = 0;
+    resultImage.style.transform = "translate(-50%, -50%) scale(0.8)";
+    
+    cardPack.style.display = "none";
+    cardPack.style.opacity = 0;
+    cardPack.style.transform = "translate(-50%, -50%) translateY(-50px)";
+    
+    blueCard.style.display = "none";
+    blueCard.style.opacity = 0;
+    blueCard.style.transform = "translate(-50%, -50%)";
+    blueCard.style.boxShadow = "none";
+    
+    // drawButtonのスタイルをリセット
+    drawButton.style.display = "block";
+    drawButton.style.position = ""; // 位置のリセット
+    drawButton.style.margin = "20px auto"; // 中央寄せ
+}
+
+
+
 
 // シェアする関数
 function shareResult() {
