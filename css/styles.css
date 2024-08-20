@@ -30,7 +30,7 @@ body {
 }
 
 #titleText {
-    
+    margin-bottom: 0px;
 }
 
 /* タイトル画面の画像スタイル */
@@ -49,7 +49,7 @@ body {
     position: relative;
     width: 100%;
     height: 600px;
-    margin-top: 20pt;
+    margin-top: 10pt;
     overflow: visible; /* はみ出しを隠す */
 }
 
@@ -266,3 +266,24 @@ button:active {
     pointer-events: none; /* エフェクトがクリックできないように */
 }
 
+/* キャプションのスタイル */
+#captionText {
+    font-size: 16px; /* フォントサイズ */
+    color: #333; /* テキストの色 */
+    font-weight: normal; /* フォントの太さ */
+    margin-top: 0; /* キャプションの上部余白を削除 */
+    margin-bottom: 20px; /* キャプションの下部余白を追加 */
+}
+
+#imageDisplay {
+    display: none;
+    text-align: center; /* 画像を中央に配置する場合 */
+}
+
+#displayImage {
+    max-width: 100%; /* 画面幅に応じて最大幅を指定 */
+    max-height: 60%; /* ビューポートの高さに応じて最大高さを指定 */
+    width: auto;
+    height: auto;
+    margin: 0 auto; /* 中央寄せ */
+}

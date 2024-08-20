@@ -13,7 +13,7 @@
         <img id="titleImage" src="images/title.jpg" alt="タイトル画像">
         <button id="startButton">スタート</button>
     </div>
-    
+
     <div id="mainScreen" class="container" style="display: none;">
         <h2 id="titleText">まいにちつづぬいガチャ</h2>
         <button id="drawButton">ガチャを引く</button>
@@ -21,6 +21,7 @@
             <div id="cardPack"></div>
             <div id="blueCard"></div>
             <img id="resultImage" src="" alt="ガチャ結果" style="display: none;">
+            <p id="captionText"></p>
             <div id="sparkleEffect" class="sparkle-effect"></div>
         </div>
         <div id="actionButtons" style="display: none;">
@@ -28,6 +29,13 @@
             <button id="returnButton" class="title-button">タイトルに戻る</button>
             <button id="shareButton" class="share-button">シェアする</button>
         </div>
+    </div>
+
+    <div id="imageDisplay" class="container" style="display: none;">
+        <h2 id="displayTitle"></h2>
+        <p id="displayCaption"></p>
+        <img id="displayImage" src="" alt="表示画像">
+        <button id="returnToTitle" class="title-button">タイトルに戻る</button>
     </div>
 
     <script src="js/script.js"></script>
