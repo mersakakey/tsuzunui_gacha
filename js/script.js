@@ -20,6 +20,8 @@ const displayCaption = document.getElementById('displayCaption');
 const imageDisplay = document.getElementById('imageDisplay');
 
 let imageData = [];
+let currentImageId = '';
+
 
 // JSONファイルから画像データを読み込む関数
 function loadImageData() {
@@ -82,7 +84,11 @@ function drawGacha() {
     if (imageData.length === 0) return;
 
     const randomIndex = Math.floor(Math.random() * imageData.length);
-    const selectedItem = imageData[randomIndex];
+    const selectedItem = imageData[randomIndex];    
+
+    // 現在表示されている画像のIDを保存
+    currentImageId = selectedItem.fileName.split('/').pop().split('.')[0]; // tsuzu1 などのIDを抽出
+
 
     // ボタンを非表示にする
     drawButton.style.display = "none";
@@ -180,7 +186,7 @@ function returnToTitle() {
     actionButtons.style.display = "none";
 
     titleText.textContent = "まいにちつづぬいガチャ";
-    displayCaption.textContent = ``;
+    captionText.textContent = ``;
     
     // 全てのスタイルをリセット
     resetStyles();
@@ -212,7 +218,7 @@ function resetStyles() {
 
 // シェアする関数
 function shareResult() {
-    const url = encodeURIComponent(window.location.href);
+    const url = `${encodeURIComponent(window.location.href)}?id=${currentImageId}`;
     const text = encodeURIComponent(`${titleText.textContent}がでたよ。\n#まいにちつづぬいガチャ\n`);
     const twitterUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
     window.open(twitterUrl, "_blank");

@@ -49,7 +49,7 @@
     },
     {
         "fileName": "tsuzu9",
-        "title": "顔認証つづぬい",
+        "title": "顔認証つづぬい①",
         "caption": "忘れないように",
         "rarity": "R"
     },
@@ -79,7 +79,7 @@
     },
     {
         "fileName": "tsuzu14",
-        "title": "卯辰山 つづぬい",
+        "title": "卯辰山 つづぬい①",
         "caption": "Dream Believers I Believe!",
         "rarity": "UR"
     },
@@ -145,7 +145,7 @@
     },
     {
         "fileName": "tsuzu25",
-        "title": "鼓門 つづぬい",
+        "title": "鼓門 つづぬい①",
         "caption": "金沢のランドマーク",
         "rarity": "UR"
     },
@@ -229,7 +229,7 @@
     },
     {
         "fileName": "tsuzu39",
-        "title": "応援上映 つづぬい",
+        "title": "応援上映 つづぬい①",
         "caption": "みんな応援ありがとう〜",
         "rarity": "R"
     },
@@ -247,878 +247,884 @@
     },
     {
         "fileName": "tsuzu42",
-        "title": "僕ラブ つづぬい",
+        "title": "僕ラブ つづぬい①",
         "caption": "ボクたちの本が売ってるんだって",
         "rarity": "N"
     },
     {
         "fileName": "tsuzu43",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "エイプリルフール つづぬい",
+        "caption": "うそだよ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu44",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "かんかん つづぬい",
+        "caption": "ぴったりだね",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu45",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ツインクルとつづぬい",
+        "caption": "中にね、お星様が入ってるんだ。",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu46",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "夜桜 つづぬい",
+        "caption": "万華鏡をこぼしたみたいな景色",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu47",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "札幌のアイツ つづぬい①",
+        "caption": "冬の装い",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu48",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "札幌のアイツ つづぬい②",
+        "caption": "きみの名前をおしえて",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu49",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "お花見つづぬい",
+        "caption": "景色が、春の風を喜んでいるよ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu50",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "お花畑 つづぬい",
+        "caption": "Colorfulness",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu51",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "デスマーチ つづぬい",
+        "caption": "無理はしないで",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu52",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "お出迎え つづぬい",
+        "caption": "おかえり。",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu53",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "像とつづぬい",
+        "caption": "やさしそうだね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu54",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "洗濯日和 つづぬい",
+        "caption": "ぴかぴか",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu55",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "顔認証つづぬい②",
+        "caption": "忘れないように",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu56",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "花壇をさんぽ つづぬい",
+        "caption": "おはなばたけ〜",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu57",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "徒町チャレンジ つづぬい",
+        "caption": "ちぇすと〜",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu58",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "たんぽぽとつづぬい",
+        "caption": "道端からの春のお便りだね。",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu59",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "お月様？とつづぬい",
+        "caption": "ふるむーん",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu60",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "駅のつづぬい",
+        "caption": "電車に乗って",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu61",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "手鏡とつづぬい",
+        "caption": "わ、ボクだ",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu62",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "白い花とつづぬい",
+        "caption": "おそろいの色だね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu63",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "2ndライブ つづぬい①",
+        "caption": "すごいこと、したね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu64",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "幕張メッセ つづぬい",
+        "caption": "いつものライブ会場",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu65",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "布団つづぬい",
+        "caption": "みつかちゃった",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu66",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "キッチンつづぬい",
+        "caption": "ボクおいしいの？",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu67",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "どら焼きとつづぬい",
+        "caption": "今日はどら焼きを食べました。おいしかったです。",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu68",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "夜の公園 つづぬい",
+        "caption": "夜の公演はね、すずしい...",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu69",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "お料理つづぬい",
+        "caption": "さやにやってもらおう",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu70",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "シーソーつづぬい",
+        "caption": "今度はさやも連れてこよう",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu71",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "川を覗き込むつづぬい",
+        "caption": "めだかがいるよ",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu72",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "応援上映 つづぬい②",
+        "caption": "ライブはいつだって楽しい...",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu73",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "こずの家に来たつづぬい",
+        "caption": "紅茶おいしかった〜",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu74",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "探検つづぬい",
+        "caption": "ここはどこだろう",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu75",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "光る棒 つづぬい",
+        "caption": "ぴかぴかだ",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu76",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "山につづぬい",
+        "caption": "山は音楽で溢れているね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu77",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "日向ぼっこ つづぬい",
+        "caption": "うん、太陽もご機嫌だね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu78",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "街へ繰り出す つづぬい",
+        "caption": "さあ、新しい世界へ出かけよう",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu79",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "カラオケつづぬい",
+        "caption": "これも芸術",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu80",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "夜の散歩 つづぬい",
+        "caption": "夜の散歩は、ひとりぼっちじゃない。",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu81",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "メイク落とし つづぬい",
+        "caption": "さやとめぐがやりなさいって...",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu82",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "上目遣い つづぬい",
+        "caption": "ボクかわいい？",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu83",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "東京タワー つづぬい",
+        "caption": "きっと世界の全部が見えてるんだね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu84",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "鼓門 つづぬい②",
+        "caption": "ここがボクたちの家",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu85",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "卯辰山 つづぬい②",
+        "caption": "Dream Believers I Believe!",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu86",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "I'm OK つづぬい",
+        "caption": "鍵かけた",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu87",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "都会のつづぬい",
+        "caption": "爽やかな風",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu88",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "カラフルな森 つづぬい",
+        "caption": "身近なところにもきらめきはあるんだ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu89",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "3Dつづぬい",
+        "caption": "ボクだよ、よろしくね〜",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu90",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "夜行バス限界旅 つづぬい",
+        "caption": "あんまり多様はしたくないかな...",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu91",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "2ndライブ つづぬい②",
+        "caption": "すごいこと、したね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu92",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ワールドホール つづぬい",
+        "caption": "ボクたちのステージ",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu93",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "空港 つづぬい",
+        "caption": "どこへ行くの",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu94",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "自由のツバサ つづぬい",
+        "caption": "さあ 羽ばたくよ 空が呼んでいる",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu95",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ハッピーバースデイ、かほ",
+        "caption": "おめでとう、かほ",
+        "rarity": "BR"
     },
     {
         "fileName": "tsuzu96",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ペイント つづぬい",
+        "caption": "みんなもシアターでやってみてね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu97",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "あなたの後ろにつづぬい",
+        "caption": "ぼくはいつもそばにいるよ",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu98",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "いももちとつづぬい",
+        "caption": "今日はいももちを食べました。おいしかったです。",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu99",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "夏真っ盛り つづぬい",
+        "caption": "ボク、夏が好きなんだ。",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu100",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ブルーなつづぬい",
+        "caption": "それはかなり、悲しい...",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu101",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ひまわりとつづぬい",
+        "caption": "かほみたいなお花だね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu102",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "恐竜とつづぬい",
+        "caption": "ボクおいしくないよ",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu103",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "さやねそとつづぬい",
+        "caption": "さや、すごいことをしよう",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu104",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ビル風 つづぬい",
+        "caption": "ビルの灯り。みんながんばれーって光だね。",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu105",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "みんなでコスプレ つづぬい",
+        "caption": "みんなかわいい",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu106",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "おわたしかい つづぬい",
+        "caption": "はい、どうぞ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu107",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "メルヘンベッド つづぬい",
+        "caption": "ボクのベッドだ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu108",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "百花繚乱 つづぬい",
+        "caption": "みやびやか",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu109",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "BeRealつづぬい",
+        "caption": "さやの着物かわいい〜",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu110",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "おしゃれチョイス つづぬい",
+        "caption": "キラキラ〜",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu111",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "やりすぎつづぬい",
+        "caption": "誰もが目を奪われてく",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu112",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "お茶会 つづぬい",
+        "caption": "こずの家もこんな感じかな？",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu113",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "菖蒲とつづぬい",
+        "caption": "ダンスを踊っているみたい",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu114",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "つづぬいとさやぬい",
+        "caption": "これからは ずっと隣に",
+        "rarity": "TR"
     },
     {
         "fileName": "tsuzu115",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "雨上がり つづぬい",
+        "caption": "雨上がりは、ボクも好き。",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu116",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "おすすめコーデ つづぬい①",
+        "caption": "めがぱっちりするよ",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu117",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "おすすめコーデ つづぬい②",
+        "caption": "かわいいね",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu118",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "連続テレビ小説 綴理さんぽ",
+        "caption": "やってみたい",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu119",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "つづぬいASMR",
+        "caption": "やっほ〜",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu120",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ステージライト つづぬい",
+        "caption": "いつかステージに立ってライブをするのが夢なんだ",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu121",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ハッピーバースデイ、こず",
+        "caption": "おめでとう、こず",
+        "rarity": "BR"
     },
     {
         "fileName": "tsuzu122",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "僕ラブ つづぬい②",
+        "caption": "いつかボクたちも本を出したいな",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu123",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "まねっこドーブツ つづぬい",
+        "caption": "ボクこれ好きなんだ。",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu124",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "壺つづぬい",
+        "caption": "なんだか、どこかに登りたい気分だ。",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu125",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "のどかな牧場つづぬい",
+        "caption": "にゃ〜にゃ〜、あれ、どこいくの",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu126",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "かちまちあらわる",
+        "caption": "待ってるよ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu127",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "梅雨の日々 つづぬい",
+        "caption": "雨が止むまで待たない",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu128",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "雷門 つづぬい",
+        "caption": "おおきなちょうちん",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu129",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "帰宅さやぬいと留守番つづぬい",
+        "caption": "無事、帰宅しました",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu130",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "手毬とつづぬい",
+        "caption": "カラフルあふれる",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu131",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "お風呂つづぬい",
+        "caption": "こず、一緒に入ろう？",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu132",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ネオン看板 つづぬい",
+        "caption": "ぴかぴかできれい",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu133",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "バンドセット つづぬい",
+        "caption": "ボクたちもバンドやりたいな",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu134",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "雨降り つづぬい&さやぬい",
+        "caption": "あいあいがさ？じゃあ、僕たちのはあいあいあいがさだね。",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu135",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "空港 つづぬい&さやぬい",
+        "caption": "遠くまで来ちゃったね",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu136",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "北海道青少年会館Compass",
+        "caption": "山の中だったね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu137",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "明るい駅前 つづぬい",
+        "caption": "踊る街、だね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu138",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "くぼみにはまったつづぬい",
+        "caption": "はまっちゃった",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu139",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "おめかしつづぬい",
+        "caption": "くーる系も似合うってめぐが言ってたよ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu140",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "スカイツリーとつづぬい",
+        "caption": "ボクもあのくらい大きくなれるかな",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu141",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "どこかのバー つづぬい",
+        "caption": "さや、お酒っておいしい？",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu142",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "曇り空 つづぬい",
+        "caption": "恥ずかしがってるのかな",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu143",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ペンギンアイス つづぬい",
+        "caption": "みんなで一緒にたべるとね、もっとおいしいんだ",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu144",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "セリフ読み つづぬい",
+        "caption": "好きな企画なんだ。",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu145",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ブタメン つづぬい&さやぬい",
+        "caption": "さや、ぼくとちょっとわるいことしよう",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu146",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "かくれんぼ つづぬい&さやぬい",
+        "caption": "わ、見つかっちゃった",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu147",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "つづぬいをのぞいているとき、つづぬいものぞいているのだ",
+        "caption": "みえたよ",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu148",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "雨降り つづぬい",
+        "caption": "雨の日も、いい日だ。",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu149",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "お買い物 つづぬい",
+        "caption": "さや、ぬのください",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu150",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ホットドッグ つづぬい&さやぬい",
+        "caption": "これはたべちゃダメですよ",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu151",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ブランコ つづぬい",
+        "caption": "まるで花になったみたいだ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu152",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ギターとつづぬい",
+        "caption": "きっとこれも芸術を作るための筆なんだね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu153",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ふわふわおやこ つづぬい&さやぬい",
+        "caption": "ぼくはぺきんだっく、さやはひよこだっく",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu154",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "よくばり つづぬい&さやぬい",
+        "caption": "さや、引き算を教えてあげる",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu155",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "たたずむつづぬい",
+        "caption": "今日は空気を食べました。おいしかったです。",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu156",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "悔しい思い つづぬい&さやぬい",
+        "caption": "花火、見れなかったね...",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu157",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "花火が見れなくて仕方なく川沿いで写真撮影 つづぬい&さやぬい",
+        "caption": "川に落ちたくは、ないかな...",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu158",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ふわふわダイビング つづぬい",
+        "caption": "きみはどこから来たの",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu159",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "打ち上げ花火 つづぬい①",
+        "caption": "ステージの上のスクールアイドルみたいだ",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu160",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "打ち上げ花火 つづぬい②",
+        "caption": "夏の夜空にきらめきが上がる",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu161",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "持ち上げられるつづぬい",
+        "caption": "てつだって",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu162",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "優雅なティータイム つづぬい&さやぬい",
+        "caption": "今日はレモンティーを飲みました。おいしかったです。",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu163",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "縁むすび つづぬい&さやぬい",
+        "caption": "ずっと隣にいよう",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu164",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "すずむつづぬい",
+        "caption": "あ゛ぁ゛〜",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu165",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "蛇口 つづぬい",
+        "caption": "いつもおせわになってます",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu166",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "DOLLCHESTRA",
+        "caption": "さあ、ボクたちのステージだ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu167",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "応援上映 つづぬい&さやぬい",
+        "caption": "さあ、星空を作ろう",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu168",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "はやりの土管 つづぬい&さやぬい",
+        "caption": "これ、おちつくね",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu169",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "可愛い衣装 つづぬい&さやぬい",
+        "caption": "私にはちょっと可愛すぎませんか！？",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu170",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "Kアリ つづぬい&さやぬい",
+        "caption": "また来たよ",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu171",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ビル風 つづぬい&さやぬい",
+        "caption": "朝を迎える準備をしてるんだね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu172",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "氷上を舞う群青と紅蓮の炎",
+        "caption": "これがボクたちの芸術だ",
+        "rarity": "UR"
     },
     {
         "fileName": "tsuzu173",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "特攻服 つづぬい",
+        "caption": "またやりたいです",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu174",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "光る木つづぬい",
+        "caption": "この木もライブしたいのかな？",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu175",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "捕まったつづぬい&さやぬい",
+        "caption": "ボクたちわるいことしてないです。",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu176",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "チョコバナナ つづぬい",
+        "caption": "今日はチョコバナナを食べました。おいしかったです。",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu177",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "怪談配信 つづぬい&さやぬい",
+        "caption": "も、もう終わりましたか！？",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu178",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "めぐちゃんの部屋 つづぬい&さやぬい",
+        "caption": "めぐのへや、かわいいよね",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu179",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "ニジガクに来たつづぬい&さやぬい",
+        "caption": "蓮ノ空が攻めてきたぞっ",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu180",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "ナップザック つづぬい",
+        "caption": "うん、ぴったりだね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu181",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "新千歳空港 つづぬい&さやぬい",
+        "caption": "かにが食べたいな",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu182",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "野球観戦 つづぬい&さやぬい",
+        "caption": "すごいね、これも、みんなで作る芸術だね。",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu183",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "テレビ塔 つづぬい",
+        "caption": "おおきな通りの公園",
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu184",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "金魚とつづぬい",
+        "caption": "きみはどこから来たの",
+        "rarity": "N"
     },
     {
         "fileName": "tsuzu185",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "噴水とつづぬい&さやぬい",
+        "caption": "噴水も楽しそうに踊っているね",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu186",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
+        "title": "なすさんとつづぬい&さやぬい",
+        "caption": "自慢のなすさんです！",
         "rarity": "R"
     },
     {
         "fileName": "tsuzu187",
-        "title": "おひるねつづぬい",
-        "caption": "ねむい",
-        "rarity": "R"
+        "title": "昨日のつづぬい&さやぬい",
+        "caption": "やっとおわった〜...",
+        "rarity": "N"
+    },
+    {
+        "fileName": "tsuzu188",
+        "title": "ぺちゃんこ つづぬい",
+        "caption": "ボクなんなの",
+        "rarity": "TR"
     }
 ]
