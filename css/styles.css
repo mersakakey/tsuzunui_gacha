@@ -275,7 +275,7 @@ button:active {
     color: #333; /* テキストの色 */
     font-weight: normal; /* フォントの太さ */
     margin-top: 0; /* キャプションの上部余白を削除 */
-    margin-bottom: 20px; /* キャプションの下部余白を追加 */
+    margin-bottom: 40px; /* キャプションの下部余白を追加 */
 }
 
 /* 画像表示ページの中央揃え */
@@ -329,7 +329,7 @@ button:active {
 }
 
 .blueCardBR, .blueCardUR {
-    background-color: rgb(143, 86, 240, 0.5); /* 例: 青 */
+    background-color: rgba(190, 12, 255, 0.5); /* 例: 青 */
 }
 
 .blueCardSR {

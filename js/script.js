@@ -117,7 +117,7 @@ function drawGacha() {
             case 'BR':
             case 'UR':
                 blueCard.classList.add('blueCardBR');
-                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(143, 86, 240, 0.8)'); // 紫
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(190, 12, 255, 0.8);'); // 紫
                 break;
             case 'SR':
                 blueCard.classList.add('blueCardSR');
