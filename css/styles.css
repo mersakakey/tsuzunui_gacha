@@ -48,7 +48,7 @@ body {
 #imageContainer {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 400px;
     margin-top: 10pt;
     overflow: visible; /* はみ出しを隠す */
 }
@@ -76,12 +76,13 @@ body {
     left: 50%;
     width: 250px; /* サイズを調整 */
     height: 375px; /* サイズを調整 */
-    background-color: rgba(0, 0, 255, 0.5);
+    /* background-color: rgba(0, 0, 255, 0.5);*/
     opacity: 0;
     transform: translate(-50%, -50%);
     z-index: 2;
     display: none;
     animation: none;
+    border-radius: 15px; /* 角を丸くする */
 }
 
 /* ガチャ結果の画像 */
@@ -94,6 +95,7 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.8);
     z-index: 3;
+    border-radius: 15px; /* 角を丸くする */
 }
 
 /* アニメーションの定義 */
@@ -119,7 +121,8 @@ body {
     }
     50% {
         opacity: 1;
-        box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+        /* 初期のボックスシャドウの色（これをJavaScriptで変える） */
+        box-shadow: var(--blue-card-shadow, 0 0 20px rgba(0, 0, 255, 0.8));
     }
     100% {
         opacity: 0;
@@ -275,15 +278,68 @@ button:active {
     margin-bottom: 20px; /* キャプションの下部余白を追加 */
 }
 
+/* 画像表示ページの中央揃え */
 #imageDisplay {
-    display: none;
-    text-align: center; /* 画像を中央に配置する場合 */
+    position: relative;
+    display: block;
+    flex-direction: column; /* 縦に並べる */
+    align-items: center; /* 横方向の中央揃え */
+    justify-content: center; /* 縦方向の中央揃え */
+    height: 100vh; /* ビューポートの高さに合わせる */
+    width: 100%; /* 横幅を100%に設定 */
+    text-align: center; /* テキストを中央揃え */
+    padding: 20px; /* 内側の余白 */
 }
 
+
+/* 画像のスタイル */
 #displayImage {
+    display: block;
     max-width: 100%; /* 画面幅に応じて最大幅を指定 */
     max-height: 60%; /* ビューポートの高さに応じて最大高さを指定 */
-    width: auto;
+     /* 要素を中央揃えに */
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
-    margin: 0 auto; /* 中央寄せ */
+    margin-bottom: 20px; /* ボタンとの間にスペースを追加 */
+    border-radius: 15px; /* 角を丸くする */
+}
+
+/* ボタンのスタイル */
+#returnToTitle {
+    background-color: #434340; /* ボタンの背景色 */
+    color: #ffffff; /* ボタンのテキスト色 */
+    padding: 10px 20px; /* ボタンのパディング */
+    font-size: 16px; /* フォントサイズ */
+    text-align: center; /* テキストを中央揃え */
+    border: none; /* ボーダーなし */
+    border-radius: 5px; /* 角を丸くする */
+    cursor: pointer; /* カーソルをポインタにする */
+    display: inline-block; /* インラインブロック要素 */
+    width: 90%;
+}
+
+/* ボタンのホバー状態 */
+#returnToTitle:hover {
+    background-color: #333; /* ホバー時の背景色 */
+}
+
+.blueCardTSUZU {
+    background-color: rgb(255, 0, 0, 0.5); /* 例: 黄色 */
+}
+
+.blueCardBR, .blueCardUR {
+    background-color: rgb(143, 86, 240, 0.5); /* 例: 青 */
+}
+
+.blueCardSR {
+    background-color: rgb(255, 255, 0, 0.5); /* 例: 赤 */
+}
+
+.blueCardR {
+    background-color: rgb(0, 0, 255, 0.5); /* 例: 緑 */
+}
+
+.blueCardN {
+    background-color: rgb(0, 0, 255, 0.5); /* 例: 緑 */
 }

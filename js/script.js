@@ -1,44 +1,3 @@
-const imageTitle = [
-    "最初のつづぬい",
-    "ドアップつづぬい",
-    "おやすみつづぬい",
-    "雪とつづぬい",
-    "ヤンヤンつけぼーとつづぬい",
-    "空とつづぬい",
-];
-
-const imageCaption = [
-    "全てはここから始まった",
-    "近いね",
-    "おやすみなさい",
-    "おそろいの色",
-    "おいしそう",
-    "いいてんき",
-];
-
-const rarity = [
-    "UR",
-    "N",
-    "N",
-    "N",
-    "N",
-    "N",
-];
-
-// 画像ファイル名を動的に生成する関数
-function generateImageArray(totalImages) {
-    const images = [];
-    for (let i = 1; i <= totalImages; i++) {
-        const fileName = `images/tsuzu${i}.jpg`;
-        const title = imageTitle[i-1]; // タイトルを取得
-        const caption = imageCaption[i-1]; // キャプションを取得
-        images.push({ fileName, title, caption });
-    }
-    return images;
-}
-
-const imageData = generateImageArray(6);
-
 // HTML要素の取得
 const titleText = document.getElementById('titleText');
 const captionText = document.getElementById('captionText');
@@ -60,6 +19,22 @@ const displayTitle = document.getElementById('displayTitle');
 const displayCaption = document.getElementById('displayCaption');
 const imageDisplay = document.getElementById('imageDisplay');
 
+let imageData = [];
+
+// JSONファイルから画像データを読み込む関数
+function loadImageData() {
+    return fetch('data/images.json')
+        .then(response => response.json())
+        .then(data => {
+            imageData = data.map(image => ({
+                fileName: `images/${image.fileName}.jpg`,
+                title: image.title,
+                caption: image.caption,
+                rarity: image.rarity
+            }));
+        });
+}
+
 // URLパラメータから「id」を取得する関数
 function getQueryParam(name) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -68,32 +43,31 @@ function getQueryParam(name) {
 
 // ページが読み込まれたときの処理
 document.addEventListener('DOMContentLoaded', () => {
-    const id = getQueryParam('id');
+    loadImageData().then(() => {
+        const id = getQueryParam('id');
 
-    if (id) {
-        const imageIndex = imageData.findIndex(image => image.fileName.includes(id));
-        
-        if (imageIndex !== -1) {
-            const image = imageData[imageIndex];
+        if (id) {
+            const imageIndex = imageData.findIndex(image => image.fileName.includes(id));
             
-            // タイトル画面とメイン画面を非表示
-            titleScreen.style.display = 'none';
-            mainScreen.style.display = 'none';
-            imageDisplay.style.display = 'block';
+            if (imageIndex !== -1) {
+                const image = imageData[imageIndex];
+                
+                // タイトル画面とメイン画面を非表示
+                titleScreen.style.display = 'none';
+                mainScreen.style.display = 'none';
+                imageDisplay.style.display = 'block';
 
-            // 画像とタイトル、キャプションを設定
-            displayImage.src = image.fileName;
-            displayTitle.textContent = image.title;
-            displayCaption.textContent = `"${image.caption}"`;
-
-            
+                // 画像とタイトル、キャプションを設定
+                displayImage.src = image.fileName;
+                displayTitle.textContent = `[${image.rarity}]:${image.title}`;
+                displayCaption.textContent = `"${image.caption}"`;
+            }
         }
-    }
 
-    // タイトルに戻るボタンのイベントリスナー
-    imageviewreturnButton.addEventListener('click', () => {
-        returnToTitle
-        window.location.href = 'index.html'; // タイトルページへのリンク
+        // タイトルに戻るボタンのイベントリスナー
+        imageviewreturnButton.addEventListener('click', () => {
+            window.location.href = 'index.html'; // タイトルページへのリンク
+        });
     });
 });
 
@@ -105,6 +79,8 @@ function startApp() {
 
 // ガチャを引く関数
 function drawGacha() {
+    if (imageData.length === 0) return;
+
     const randomIndex = Math.floor(Math.random() * imageData.length);
     const selectedItem = imageData[randomIndex];
 
@@ -123,13 +99,46 @@ function drawGacha() {
     resultImage.style.display = "none"; // 最初は結果画像を非表示
     actionButtons.style.display = "none"; // アクションボタンを非表示
 
+        // 青いカードの色を設定するクラスをリセット
+        blueCard.className = 'blueCard'; // 基本クラスのリセット
+
+        // rarityに応じて青いカードの色を変更
+        switch (selectedItem.rarity) {
+            case 'TR':
+                blueCard.classList.add('blueCardTSUZU');
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(255, 0, 0, 0.8)'); // 赤
+                break;
+            case 'BR':
+            case 'UR':
+                blueCard.classList.add('blueCardBR');
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(143, 86, 240, 0.8)'); // 紫
+                break;
+            case 'SR':
+                blueCard.classList.add('blueCardSR');
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(251, 255, 0, 0.8)'); // 黄色
+                break;
+            case 'R':
+                blueCard.classList.add('blueCardR');
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(0, 0, 255, 0.8)'); // 緑
+                break;
+            case 'N':
+                blueCard.classList.add('blueCardN');
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(0, 0, 255, 0.8)'); // 緑
+                break;
+            default:
+                // デフォルトの色設定
+                blueCard.classList.add('blueCardN');
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(0, 0, 255, 0.8)'); // 緑
+                break;
+        }
+
     // アニメーションをリセットして再適用
     cardPack.style.animation = "showPack 3s forwards";
     blueCard.style.animation = "showBlueCard 4.5s forwards 1.5s";
 
     // ランダムに選択された画像を結果画像にセット
     resultImage.src = selectedItem.fileName;
-    titleText.textContent = selectedItem.title;
+    titleText.textContent = `[${selectedItem.rarity}] ${selectedItem.title}`;
     captionText.textContent = `"${selectedItem.caption}"`;
 
     // 早めに結果画像を表示
@@ -143,11 +152,11 @@ function drawGacha() {
         cardPack.style.display = "none";
         blueCard.style.display = "none";
         // showSparkleEffect()
+        actionButtons.style.display = "block";
     }, 6500); // ここはアニメーションの終了時間に合わせて調整
 
     // すべてのボタンを再表示するタイミングを調整
     setTimeout(() => {
-        actionButtons.style.display = "block";
         actionButtons.classList.remove('fading-hidden');
         actionButtons.classList.add('fading-visible');
         titleText.classList.remove('fading-hidden'); // タイトルテキストを再表示
@@ -171,6 +180,7 @@ function returnToTitle() {
     actionButtons.style.display = "none";
 
     titleText.textContent = "まいにちつづぬいガチャ";
+    displayCaption.textContent = ``;
     
     // 全てのスタイルをリセット
     resetStyles();
@@ -203,7 +213,7 @@ function resetStyles() {
 // シェアする関数
 function shareResult() {
     const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent("ガチャを引いた結果をシェアしよう！");
+    const text = encodeURIComponent(`${titleText.textContent}がでたよ。\n#まいにちつづぬいガチャ\n`);
     const twitterUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
     window.open(twitterUrl, "_blank");
 }
