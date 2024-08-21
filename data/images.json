@@ -404,7 +404,7 @@
     {
         "fileName": "tsuzu68",
         "title": "夜の公園 つづぬい",
-        "caption": "夜の公演はね、すずしい...",
+        "caption": "夜の公園はね、すずしい...",
         "rarity": "SR"
     },
     {
@@ -1126,5 +1126,89 @@
         "title": "ぺちゃんこ つづぬい",
         "caption": "ボクなんなの",
         "rarity": "TR"
-    }
+    },
+    {
+        "fileName": "tsuzu189",
+        "title": "マイクラ つづぬい",
+        "caption": "ボクカクカクなの",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu190",
+        "title": "まいにちつづぬいプレミアム",
+        "caption": "ボクプレミアムなの",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu191",
+        "title": "猛暑の中厚着してあつあつ中華まん つづぬい",
+        "caption": "ぬいぐるみだからセーフ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu192",
+        "title": "紫陽花とうちの子 つづぬい",
+        "caption": "の゛ん゛ち゛ゅ゛け゛ーーーーっ！！！！！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu193",
+        "title": "ぼうし つづぬい",
+        "caption": "ぼうしもってるよ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu194",
+        "title": "きゅるまるの園",
+        "caption": "きゅるまるパーティー！",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu195",
+        "title": "金箔ソフト つづぬい",
+        "caption": "ぼくも金色になれるかな",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu196",
+        "title": "武家屋敷 つづぬい",
+        "caption": "雪はどこかへ行っちゃった",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu197",
+        "title": "いっぷくや つづぬい",
+        "caption": "ここのおでん好きなんだ。あちち。",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu198",
+        "title": "近江町市場 つづぬい",
+        "caption": "雨が上がる場所を探しに行こう",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu199",
+        "title": "つづぬい&夕霧綴理",
+        "caption": "おおきなボクだ",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu200",
+        "title": "2ndライブ つづぬい③",
+        "caption": "最高のライブ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu201",
+        "title": "ポケット つづぬい",
+        "caption": "やどかり",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu202",
+        "title": "鼓門 つづぬい③",
+        "caption": "ボクの赤だよ",
+        "rarity": "UR"
+    }  
 ]

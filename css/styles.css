@@ -12,7 +12,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
+    font-family: "yomogi", cursive;
     overflow: hidden;
 }
 
@@ -48,7 +48,7 @@ body {
 #imageContainer {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 50%;
     margin-top: 10pt;
     overflow: visible; /* はみ出しを隠す */
 }
@@ -171,6 +171,7 @@ button {
     width: 45%;
     max-width: 300px;
     opacity: 1; /* 初期は表示 */
+    font-family: "yomogi", cursive;
 }
 
 /* 各ボタンの色を設定 */
@@ -213,17 +214,17 @@ button:active {
     }
 
     #imageContainer {
-        height: 50%;
+        height: 60%;
     }
 
     #cardPack {
-        width: 300px; /* サイズを調整 */
-        height: 450px; /* サイズを調整 */
+        width: 250px; /* サイズを調整 */
+        height: 3750px; /* サイズを調整 */
     }
 
     #blueCard {
-        width: 150px; /* サイズを調整 */
-        height: 225px; /* サイズを調整 */
+        width: 180px; /* サイズを調整 */
+        height: 270px; /* サイズを調整 */
     }
 
     button {
@@ -336,10 +337,6 @@ button:active {
     background-color: rgb(255, 255, 0, 0.5); /* 例: 赤 */
 }
 
-.blueCardR {
-    background-color: rgb(0, 0, 255, 0.5); /* 例: 緑 */
-}
-
 .blueCardN {
-    background-color: rgb(0, 0, 255, 0.5); /* 例: 緑 */
+    background-color: rgba(50, 80, 255, 0.5); /* 例: 緑 */
 }

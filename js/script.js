@@ -117,19 +117,16 @@ function drawGacha() {
             case 'BR':
             case 'UR':
                 blueCard.classList.add('blueCardBR');
-                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(190, 12, 255, 0.8);'); // 紫
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(150, 0, 255, 0.8)'); // 紫
                 break;
             case 'SR':
                 blueCard.classList.add('blueCardSR');
-                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(251, 255, 0, 0.8)'); // 黄色
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(255, 255, 0, 0.8)'); // 黄色
                 break;
             case 'R':
-                blueCard.classList.add('blueCardR');
-                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(0, 0, 255, 0.8)'); // 緑
-                break;
             case 'N':
                 blueCard.classList.add('blueCardN');
-                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(0, 0, 255, 0.8)'); // 緑
+                blueCard.style.setProperty('--blue-card-shadow', '0 0 20px rgba(50, 80, 255, 0.8)'); // 緑
                 break;
             default:
                 // デフォルトの色設定
@@ -163,13 +160,81 @@ function drawGacha() {
 
     // すべてのボタンを再表示するタイミングを調整
     setTimeout(() => {
+        
+        if (selectedItem.rarity === 'BR' || selectedItem.rarity === 'UR') {
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+        } else if (selectedItem.rarity === 'TR') {
+            var end = Date.now() + (15 * 100);
+
+            // go Buckeyes!
+            var colors = ['#bb0000', '#ffffff'];
+            
+            (function frame() {
+              confetti({
+                particleCount: 2,
+                angle: 60,
+                spread: 55,
+                origin: { x: 0 },
+                colors: colors
+              });
+              confetti({
+                particleCount: 2,
+                angle: 120,
+                spread: 55,
+                origin: { x: 1 },
+                colors: colors
+              });
+            
+                // 演出の継続を制御
+            if (Date.now() < end ) {
+                setTimeout(() => {
+                requestAnimationFrame(frame);
+                }, 50); // アニメーションの呼び出し間隔を調整
+            }
+            }());
+        } else if (selectedItem.rarity === 'SR') {
+            var defaults = {
+                spread: 360,
+                ticks: 50,
+                gravity: 0,
+                decay: 0.94,
+                startVelocity: 30,
+                colors: ['FFE400', 'FFBD00', 'E89400', 'FFCA6C', 'FDFFB8']
+              };
+              
+              function shoot() {
+                confetti({
+                  ...defaults,
+                  particleCount: 40,
+                  scalar: 1.2,
+                  shapes: ['star'],
+                  origin: {y: 0.4}
+                });
+              
+                confetti({
+                  ...defaults,
+                  particleCount: 10,
+                  scalar: 0.75,
+                  shapes: ['circle'],
+                  origin: {y: 0.4}
+                });
+              }
+              
+              setTimeout(shoot, 0);
+        }
+        
+
         actionButtons.classList.remove('fading-hidden');
         actionButtons.classList.add('fading-visible');
         titleText.classList.remove('fading-hidden'); // タイトルテキストを再表示
         titleText.classList.add('fading-visible');
         captionText.classList.remove('fading-hidden'); // キャプションテキストを再表示
         captionText.classList.add('fading-visible');
-    }, 7000); // ここも全アニメーションの合計時間に合わせて調整
+    }, 6800); // ここも全アニメーションの合計時間に合わせて調整
 }
 
 // もう一度引く関数
@@ -249,6 +314,7 @@ function showSparkleEffect() {
         }
     });
 }
+
 
 // イベントリスナーの設定
 startButton.addEventListener("click", startApp);
