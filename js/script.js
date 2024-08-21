@@ -136,8 +136,10 @@ function drawGacha() {
         }
 
     // アニメーションをリセットして再適用
+    setTimeout(() => {
     cardPack.style.animation = "showPack 3s forwards";
     blueCard.style.animation = "showBlueCard 4.5s forwards 1.5s";
+    }, 500);
 
     // ランダムに選択された画像を結果画像にセット
     resultImage.src = selectedItem.fileName;
@@ -148,7 +150,7 @@ function drawGacha() {
     setTimeout(() => {
         resultImage.style.display = "block";
         resultImage.style.animation = "showResultImage 2s forwards 3s";
-    }, 1500);
+    }, 2000);
 
     // アニメーションが終わったら、カードパックと青色のカードを非表示
     setTimeout(() => {
@@ -156,7 +158,7 @@ function drawGacha() {
         blueCard.style.display = "none";
         // showSparkleEffect()
         actionButtons.style.display = "block";
-    }, 6500); // ここはアニメーションの終了時間に合わせて調整
+    }, 7000); // ここはアニメーションの終了時間に合わせて調整
 
     // すべてのボタンを再表示するタイミングを調整
     setTimeout(() => {
@@ -234,7 +236,7 @@ function drawGacha() {
         titleText.classList.add('fading-visible');
         captionText.classList.remove('fading-hidden'); // キャプションテキストを再表示
         captionText.classList.add('fading-visible');
-    }, 6800); // ここも全アニメーションの合計時間に合わせて調整
+    }, 7300); // ここも全アニメーションの合計時間に合わせて調整
 }
 
 // もう一度引く関数
