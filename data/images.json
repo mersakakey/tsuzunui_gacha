@@ -1216,5 +1216,1373 @@
         "title": "HALF ANNIVERSARY!!!",
         "caption": "これからもよろしくね",
         "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu204",
+        "title": "ひなたぼっこ",
+        "caption": "でっかい 公園だね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu205",
+        "title": "イオンシネマ つづぬい",
+        "caption": "みんなで みよう",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu206",
+        "title": "オンエア つづぬい&さやぬい",
+        "caption": "きょうも元気にオンエア！",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu207",
+        "title": "あっちむいてホイ つづぬい",
+        "caption": "むいちゃった",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu208",
+        "title": "ユニコーンとつづぬい&さやぬい",
+        "caption": "あのこもスクールアイドルかな？",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu209",
+        "title": "信号機 つづぬい",
+        "caption": "信号機が 青を指す",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu210",
+        "title": "潜む つづぬい",
+        "caption": "ちょっと せまいね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu211",
+        "title": "のぞいてる つづぬい&さやぬい",
+        "caption": "みえるね みえますよ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu212",
+        "title": "リハーサル つづぬい",
+        "caption": "じゅんびちゅう",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu213",
+        "title": "てるてるつづぬい",
+        "caption": "あめやめー",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu214",
+        "title": "ハッピーバースデイ、るり",
+        "caption": "おめでとう、るり",
+        "rarity": "BR"
+    },
+    {
+        "fileName": "tsuzu215",
+        "title": "ふわふわDOLLCHESTRA",
+        "caption": "ふわふわの群青と紅蓮のふわふわ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu216",
+        "title": "ぺきんだっくとつづぬい",
+        "caption": "ぺきんだっく～",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu217",
+        "title": "トレジャー つづぬい&さやぬい",
+        "caption": "おたから",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu218",
+        "title": "つづぬいちゃんが二人！？",
+        "caption": "手に負えません～！",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu219",
+        "title": "優雅な撮影会 つづぬい&さやぬい",
+        "caption": "ぱしゃぱしゃ～",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu220",
+        "title": "囚われたなかま つづぬい",
+        "caption": "きみはどこへいくの",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu221",
+        "title": "みんなとあそぼう つづぬい",
+        "caption": "みんなでいると もっとたのしい",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu222",
+        "title": "不思議なたてもの つづぬい",
+        "caption": "のぞいてみようか？",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu223",
+        "title": "絵画 つづぬい",
+        "caption": "みてください！この彫刻のような美しい顔を！",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu224",
+        "title": "おもしろ衣装 つづぬい&さやぬい",
+        "caption": "にあってる？",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu225",
+        "title": "まぶしい夜 つづぬい",
+        "caption": "つやつやなよるだ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu226",
+        "title": "Zepp Haneda つづぬい&さやぬい",
+        "caption": "ろくがライブなんだって",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu227",
+        "title": "ぴかぴか会場 つづぬい&さやぬい",
+        "caption": "げんそうてき",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu228",
+        "title": "第一回きゅるまるオフ会",
+        "caption": "ぬいぐるみなかまだいしゅうごう！",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu229",
+        "title": "さやのゆどころ つづぬい&さやぬい",
+        "caption": "さやどころ...ゆどころ...?",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu230",
+        "title": "シアター つづぬい&さやぬい",
+        "caption": "ボクたちのえいがはやってるかな",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu231",
+        "title": "ボクたちの部室 つづぬい&さやぬい",
+        "caption": "みんないるよ",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu232",
+        "title": "#LOVE つづぬい",
+        "caption": "Enjoy Summer Time!!",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu233",
+        "title": "第二音楽堂 つづぬい&さやぬい",
+        "caption": "ボクらの音を奏でよう",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu234",
+        "title": "かちまち救出 つづぬい",
+        "caption": "まっててね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu235",
+        "title": "ねそべりかちまちといっしょ",
+        "caption": "寝そべりチャレンジです！",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu236",
+        "title": "ひかるゆか つづぬい",
+        "caption": "ぴかぴか～",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu237",
+        "title": "サイン練習 つづぬい&さやぬい",
+        "caption": "どうかな？",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu238",
+        "title": "ハッピーバースデイ、ひめ",
+        "caption": "おめでとう、ひめ",
+        "rarity": "BR"
+    },
+    {
+        "fileName": "tsuzu239",
+        "title": "白い馬車 つづぬい&さやぬい",
+        "caption": "さやといっしょにどこまでも",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu240",
+        "title": "ライトステージ つづぬい&さやぬい",
+        "caption": "ステージみたいだ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu241",
+        "title": "よいのまち つづぬい&さやぬい",
+        "caption": "まちがボクたちを見下ろしてる",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu242",
+        "title": "ぼうし？ つづぬい&さやぬい",
+        "caption": "このぼうしあったかいね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu243",
+        "title": "ミニ卯辰山 つづぬい&さやぬい",
+        "caption": "ボクたちみたいな卯辰山",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu244",
+        "title": "パン食いきょうそう つづぬい",
+        "caption": "むももも",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu245",
+        "title": "お茶菓子 つづぬい&さやぬい",
+        "caption": "こずのきもちがわかるかな？",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu246",
+        "title": "きらめく駅舎 つづぬい&さやぬい",
+        "caption": "まんなか",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu247",
+        "title": "ボクのグッズ つづぬい",
+        "caption": "わ、ボクがいっぱいだ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu248",
+        "title": "手つなぎ つづぬい&さやぬい",
+        "caption": "この手はもう はなさない",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu249",
+        "title": "おだんご つづぬい",
+        "caption": "のどからてがでちゃうね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu250",
+        "title": "おたから つづぬい&さやぬい",
+        "caption": "わ、せんぱい！？",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu251",
+        "title": "ゆのみ つづぬい",
+        "caption": "てもあしも...ボクもでない...",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu252",
+        "title": "かいだん つづぬい",
+        "caption": "ここがどこだかわかるかな",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu253",
+        "title": "VSホットドッグ つづぬい&さやぬい",
+        "caption": "ともだちになってくれるかな",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu254",
+        "title": "クイズ大会 DOLLCHESTRA",
+        "caption": "ぴんぽんぴんぽん～",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu255",
+        "title": "かきとつづぬい",
+        "caption": "みて、おいしい秋だよ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu256",
+        "title": "ボクたちのパネル つづぬい&さやぬい",
+        "caption": "ボクたちこんなにおおきいの？",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu257",
+        "title": "ぺきんだっくみつけた つづぬい",
+        "caption": "きみはひとり？そっか。",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu258",
+        "title": "おたから つづぬい&さやぬい2",
+        "caption": "おたからはボクたちでした",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu259",
+        "title": "ダークなムード つづぬい",
+        "caption": "しゅんとしたきぶん？それともにゅんかな。",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu260",
+        "title": "めん..? つづぬい&さやぬい",
+        "caption": "こくごはあんまりなんだ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu261",
+        "title": "おでかけじゅんび",
+        "caption": "じゅんびはいつもたのしいの前にあるよね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu262",
+        "title": "ゆのくに天祥 つづぬい&さやぬい",
+        "caption": "いらっしゃいませ～",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu263",
+        "title": "ハッピーバースデイ、ぎん",
+        "caption": "おめでとう、ぎん",
+        "rarity": "BR"
+    },
+    {
+        "fileName": "tsuzu264",
+        "title": "みんなで鼓門",
+        "caption": "いつきてもおむかえしてくれるんだ",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu265",
+        "title": "金沢スタジアム つづぬい&さやぬい",
+        "caption": "つやつやなよるだ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu266",
+        "title": "Zepp Haneda つづぬい&さやぬい",
+        "caption": "ろくがライブなんだって",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu267",
+        "title": "ぴかぴか会場 つづぬい&さやぬい",
+        "caption": "げんそうてきだ～",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu268",
+        "title": "第一回きゅるまるオフ会",
+        "caption": "ぬいぐるみなかまだいしゅうごう！",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu269",
+        "title": "小松駅前 つづぬい&さやぬい",
+        "caption": "るりもここを通って蓮ノ空にやってきたんだね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu270",
+        "title": "たっきゅう つづぬい&さやぬい",
+        "caption": "ぴんぽんぱんぽん これはちょっとちがうかな...",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu271",
+        "title": "ふしぎなセカイ つづぬい",
+        "caption": "なにもかもが さかさまに映る",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu272",
+        "title": "ハッピーハロウィン！①",
+        "caption": "秋がうきあしだってるね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu273",
+        "title": "ハッピーハロウィン！②",
+        "caption": "とりっく おあ とりーと おあ ...ぜんぶ？",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu274",
+        "title": "ハッピーハロウィン！③",
+        "caption": "おかしのたべすぎはだめですよ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu275",
+        "title": "あさひ つづぬい&さやぬい",
+        "caption": "あさがボクたちをみてる ボクもあさをみてるよ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu276",
+        "title": "月夜見海月 つづぬい&さやぬい",
+        "caption": "ただ流れていく毎日にさよならをしよう",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu277",
+        "title": "ドーム つづぬい&さやぬい",
+        "caption": "きらめきのあつまるばしょ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu278",
+        "title": "飛び立つツバサ つづぬい",
+        "caption": "世界に飛び立つ 伝統文化",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu279",
+        "title": "きのこのもり つづぬい&さやぬい",
+        "caption": "なんでかな おどりたくなる",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu280",
+        "title": "日記を読むつづぬい",
+        "caption": "いろんなことがあったね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu281",
+        "title": "Reflection in the mirror つづぬい",
+        "caption": "×をつけるボクに〇をつけた君のせいかな",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu282",
+        "title": "夜空を見上げるつづぬい",
+        "caption": "ボクは飛び立てるのかな",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu283",
+        "title": "タカラモノ つづぬい",
+        "caption": "たくさんだね そうだね みんなの笑顔さ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu284",
+        "title": "ポッキーゲーム つづぬい",
+        "caption": "ぜんぶたべたらかちだね",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu285",
+        "title": "池袋駅 つづぬい&さやぬい",
+        "caption": "TOKYOの電車はいそがしそう",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu286",
+        "title": "ころもがえ つづぬい&さやぬい",
+        "caption": "さむくなってきましたからね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu287",
+        "title": "ふたりとひとつ",
+        "caption": "はなれていてもすぐそばにいるよ",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu288",
+        "title": "待っている つづぬい&さやぬい",
+        "caption": "黄色のきらめきがやってくる",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu289",
+        "title": "かちまちあらわる",
+        "caption": "おとどけチャレンジせいこうです！！！！",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu290",
+        "title": "ハッピーバースデイ、ボク",
+        "caption": "うれしいな、いままでで一番うれしい日だ",
+        "rarity": "BR"
+    },
+    {
+        "fileName": "tsuzu291",
+        "title": "めぐちゃんとつづぬい①",
+        "caption": "みてみて！おかし！",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu292",
+        "title": "アンニュイつづぬい",
+        "caption": "ボクはもう、床になるしかない...",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu293",
+        "title": "顔はめパネル つづぬい&さやぬい",
+        "caption": "思い出も 顔を出しているね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu294",
+        "title": "忍者 つづぬい",
+        "caption": "にんにん",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu295",
+        "title": "みんなでおでかけじゅんび",
+        "caption": "あれもこれももっていきたいです！",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu296",
+        "title": "グリコ",
+        "caption": "きっとあの人は夢をかなえたんだね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu297",
+        "title": "ライブのよいん つづぬい&さやぬい&すずぬい",
+        "caption": "やっぱり、ライブってすごいね。",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu298",
+        "title": "おやすみ つづぬい&さやぬい&すずぬい",
+        "caption": "みんなでねると、きっといつもよりしあわせだ。",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu299",
+        "title": "イルミネーション つづぬい&さやぬい&すずぬい①",
+        "caption": "この季節は街がライブ会場みたいだ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu300",
+        "title": "ビッグボイス選手権",
+        "caption": "不思議な力で、動いててほしい～～！！！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu301",
+        "title": "あきのおでかけ つづぬい&さやぬい&すずぬい",
+        "caption": "おちばのベッドだね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu302",
+        "title": "きゅうけい つづぬい",
+        "caption": "ぱーきんぐえりあは、ボクによりそってくれる...",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu303",
+        "title": "たんじょうびパフェ つづぬい&さやぬい&すずぬい",
+        "caption": "今日はパフェもボクのいろだ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu304",
+        "title": "ボクのパフェ つづぬい",
+        "caption": "ボクのパフェだ...！",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu305",
+        "title": "ライブ配信 つづぬい",
+        "caption": "今日のボクたちは煌めきを照らす星だ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu306",
+        "title": "恐竜発掘 つづぬい&すずぬい",
+        "caption": "きれいにほれたらチャレンジ成功です！",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu307",
+        "title": "きらめく街路樹 つづぬい",
+        "caption": "あまのがわがおちてきちゃったのかな",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu308",
+        "title": "赤と青のきらめき",
+        "caption": "ボクたちの色は、ボクたちのものだ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu309",
+        "title": "秋の晴れ空 つづぬい&さやぬい&すずぬい",
+        "caption": "あきのそらだ。そらのあきだね。",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu310",
+        "title": "イルミネーション つづぬい&さやぬい&すずぬい②",
+        "caption": "街が夜空のまねをしているね",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu311",
+        "title": "ふゆのよそおい つづぬい",
+        "caption": "あったかくてかわいい...うれしいな",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu312",
+        "title": "赤い噴水 つづぬい&さやぬい&すずぬい",
+        "caption": "ボクがうみに入ると、こんなかんじかな。",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu313",
+        "title": "サンタブーツ つづぬい&さやぬい",
+        "caption": "くつしたはプレゼントのすみかだね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu314",
+        "title": "こっそり試着 かほぬい&めぐちゃん①",
+        "caption": "センパイのふく、こっそり着ちゃいましょう！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu315",
+        "title": "こっそり試着 かほぬい&めぐちゃん②",
+        "caption": "ボクのふく...",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu316",
+        "title": "ローズガーデン つづぬい",
+        "caption": "はなとあいさつ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu317",
+        "title": "オンゲキ つづぬい&さやぬい&すずぬい",
+        "caption": "音楽とたたかうの？",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu318",
+        "title": "てづくりおでん つづぬい&さやぬい&すずぬい",
+        "caption": "さやのおでんがいちばんあったかい",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu319",
+        "title": "ペンギンドーナツ つづぬい&さやぬい&すずぬい",
+        "caption": "うぅ...ぺんぎんさんは食べてって言ってる...ボクはかわいいって言ってるよ...",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu320",
+        "title": "ペンギンドーナツ つづぬい",
+        "caption": "今日はペンギンドーナツを食べました。おいしかったです。",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu321",
+        "title": "ウェンディーズ つづぬい&さやぬい&すずぬい",
+        "caption": "今日はハンバーガーを食べました。おいしかったです。",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu322",
+        "title": "めぐちゃんとつづぬい②",
+        "caption": "わたしのしんゆう！",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu323",
+        "title": "みんなでうぃずみーつ",
+        "caption": "ぽちっ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu324",
+        "title": "スイーツパラダイス つづぬい&さやぬい&すずぬい",
+        "caption": "チョコのケーキたべほうだい...ゆめだよね..？",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu325",
+        "title": "ハッピーバースデイ、めぐ",
+        "caption": "おめでとう、めぐ",
+        "rarity": "BR"
+    },
+    {
+        "fileName": "tsuzu326",
+        "title": "両国国技館 つづぬい&さやぬい&すずぬい①",
+        "caption": "ちからづよいライブが出来そうだ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu327",
+        "title": "両国国技館 つづぬい&さやぬい&すずぬい②",
+        "caption": "360度のまんてんの星空だったね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu328",
+        "title": "みんなで看病 つづぬい&さやぬい&すずぬい",
+        "caption": "はやくげんきになってください！",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu329",
+        "title": "クリスマスパーティー つづぬい&さやぬい&すずぬい",
+        "caption": "クリスマスの色はとっても楽しい色だ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu330",
+        "title": "ラブライブ北陸大会突破！！！！",
+        "caption": "はすのそらさいきょー！",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu331",
+        "title": "もにっ①",
+        "caption": "さやかせんぱいはやさしいもにっです！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu332",
+        "title": "#もにっ②",
+        "caption": "つづりせんぱいはたのしいもにっです！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu333",
+        "title": "もにっ③",
+        "caption": "もにもにのかちまちです！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu334",
+        "title": "おめん つづぬい&すずぬい",
+        "caption": "おめんもたのしそう。ボクもたのしい。",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu335",
+        "title": "何度目かの桜 つづぬい&さやぬい&すずぬい",
+        "caption": "出会いも別れもこの景色がくれたよ",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu336",
+        "title": "ODAIBA",
+        "caption": "どこにいるかわかるかな",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu337",
+        "title": "AI",
+        "caption": "ODAIBAだよ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu338",
+        "title": "蓮ノ空の攻撃 つづぬい&さやぬい&すずぬい",
+        "caption": "ここはいろんな色がまざるばしょなんだ。",
+        "rarity": "BR"
+    },
+    {
+        "fileName": "tsuzu339",
+        "title": "おおそうじ つづぬい&さやぬい&すずぬい",
+        "caption": "みてください！こんなものをみつけました！",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu340",
+        "title": "賀正 つづぬい&さやぬい&すずぬい",
+        "caption": "あけましておめでとうございます！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu341",
+        "title": "おとしだま つづぬい&さやぬい&すずぬい",
+        "caption": "わ！かちまちのにはチョコがはいってました！",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu342",
+        "title": "着物 つづぬい",
+        "caption": "晴れの日、晴れ着。雨が上がったってことだ。",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu343",
+        "title": "三色のきらめき",
+        "caption": "3つの色は無限大になるんだよ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu344",
+        "title": "きらめく場所 つづぬい",
+        "caption": "きれいだね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu345",
+        "title": "とりさんおやこ つづぬい&さやぬい&すずぬい",
+        "caption": "すずはがんばりひよこ、さやは...ママひよこ？それもあり。",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu346",
+        "title": "練習 つづぬい&さやぬい",
+        "caption": "いつかライブをしたいんだ。",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu347",
+        "title": "スリーズブーケとなかよし",
+        "caption": "みんなでおひるねしてみる？",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu348",
+        "title": "きゅうけいちゅう つづぬい",
+        "caption": "ボクだって床になりたいときはある...",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu349",
+        "title": "みんなでライブ つづぬい",
+        "caption": "みんなと会うのもだいごみだよね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu350",
+        "title": "TRI TRI UNITY!!!",
+        "caption": "3つのきらめき",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu351",
+        "title": "牛久シャトー つづぬい&さやぬい&すずぬい",
+        "caption": "歴史あるたてものなんですよ？",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu352",
+        "title": "ハッピーバースデイ、さや",
+        "caption": "おめでとう、さや。",
+        "rarity": "BR"
+    },
+    {
+        "fileName": "tsuzu353",
+        "title": "しょうわのまち つづぬい&さやぬい&すずぬい",
+        "caption": "ボクたちみたいなそらだ",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu354",
+        "title": "地下醸造場 つづぬい&さやぬい&すずぬい",
+        "caption": "くらくてせまくてどくとくなかおり",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu355",
+        "title": "おひるね つづぬい&るりぬい",
+        "caption": "るりはおひるねもじょうずだね",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu356",
+        "title": "ふるいでんわ つづぬい&さやぬい&すずぬい",
+        "caption": "これで配信はできるかな？",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu357",
+        "title": "辻占？ つづぬい&ひめぬい",
+        "caption": "このさきの全ては最高になっちゃいますよ～",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu358",
+        "title": "即売会 つづぬい&さやぬい&すずぬい",
+        "caption": "みんなの情熱がまぶしいね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu359",
+        "title": "かほぬいにしのびよるかげ",
+        "caption": "なんだか視線を感じる...？",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu360",
+        "title": "かほぬいとさやぬいをみるつづぬい",
+        "caption": "かほとはなしているさやはやわらかくなるんだ",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu361",
+        "title": "じきひつサイン さやぬい",
+        "caption": "とってもがんばりました！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu362",
+        "title": "Fes×Rec LIVE つづぬい&さやぬい",
+        "caption": "色褪せない思い出を、形にしよう",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu363",
+        "title": "UNIVERSAL つづぬい&さやぬい&すずぬい",
+        "caption": "ゆめがつまったぱーく！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu364",
+        "title": "ラブライブ優勝！！！！！",
+        "caption": "叶ったんだ、ボクたちの夢が",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu365",
+        "title": "号外 つづぬい&さやぬい&すずぬい",
+        "caption": "さいきょーなボクたちをみんなにも知ってもらいたいな",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu366",
+        "title": "えがおをはこぶかほぬい",
+        "caption": "つづりセンパイ！えがおをとどけにきました！",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu367",
+        "title": "ぴかぴか笑顔 つづぬい&かほぬい",
+        "caption": "みんながえがお",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu368",
+        "title": "輝く優勝旗 つづぬい&こずぬい&めぐぬい",
+        "caption": "さいきょーの証",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu369",
+        "title": "蓮ノ空女学院 つづぬい&さやぬい&すずぬい",
+        "caption": "きらめきが集う場所",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu370",
+        "title": "DJさやぬい",
+        "caption": "い、いえーい！あがっていきましょう！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu371",
+        "title": "クラブ つづぬい&さやぬい&すずぬい",
+        "caption": "のりのりできらきら",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu372",
+        "title": "優勝の凱旋 つづぬい&さやぬい&すずぬい",
+        "caption": "はすのそらさいきょー",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu373",
+        "title": "Kアリ つづぬい&さやぬい&すずぬい",
+        "caption": "いつきてもにぎやか",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu374",
+        "title": "なげちゃった ぎんぬい",
+        "caption": "ごめんなさい...",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu375",
+        "title": "ころがる つづぬい",
+        "caption": "いまボクはパイプになっている...",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu376",
+        "title": "タコ負け つづぬい&ひめぬい",
+        "caption": "アタシは勝負には厳しいですよ～？",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu377",
+        "title": "スペシャルゲスト！？",
+        "caption": "せら、よろしくね",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu378",
+        "title": "モニタリング つづぬい",
+        "caption": "MWAH!!!",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu379",
+        "title": "いつまでもいっしょ つづぬい&さやぬい",
+        "caption": "これからもよろしくおねがいします。",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu380",
+        "title": "衣装づくりの準備",
+        "caption": "まずはちょっとづつつくっていきましょう...!",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu381",
+        "title": "ハリボーの攻撃だ",
+        "caption": "かちまちまけました...",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu382",
+        "title": "試作衣装 つづぬい&ぎんぬい",
+        "caption": "ぜんぜんだめ...なんでなん...？",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu383",
+        "title": "月夜 つづぬい",
+        "caption": "月は照明で、ここはおおきなライブ会場だ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu384",
+        "title": "部長に感謝",
+        "caption": "こずは偉大だね。",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu385",
+        "title": "バレンタイン つづぬい&さやぬい",
+        "caption": "いつもありがとう。チョコっとボクをプレゼント",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu386",
+        "title": "芸術となったつづぬい",
+        "caption": "芸術のようっていうのは比喩ですから！でてきてください～！",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu387",
+        "title": "ライブ準備 つづぬい&こずぬい&るりぬい",
+        "caption": "みんなの夢をのせるライブ会場",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu388",
+        "title": "全員集合！",
+        "caption": "ふふ、この部室もちょっとせまいね。",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu389",
+        "title": "初星学園の名刺 つづぬい",
+        "caption": "いろんなきらめきが、ここにも",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu390",
+        "title": "激アツかちまち",
+        "caption": "かちまちがやってきます！！！！！！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu391",
+        "title": "すずこんにちは つづぬい",
+        "caption": "よろしくね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu392",
+        "title": "もにっ④",
+        "caption": "や、やめて～...",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu393",
+        "title": "わかんない つづぬい",
+        "caption": "これはちょっとむずかしいな...",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu394",
+        "title": "クッキーづくり つづぬい&さやぬい&すずぬい",
+        "caption": "うまくやけるかな",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu395",
+        "title": "すごいひと つづぬい&さやぬい",
+        "caption": "ウルトラなひと",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu396",
+        "title": "ゆのくに天祥にきた つづぬい&さやぬい",
+        "caption": "けんらんごうか",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu397",
+        "title": "たまごつづとつづぬい",
+        "caption": "たまごのボク?ボクのたまご?",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu398",
+        "title": "ゆでられるたまごつづ",
+        "caption": "ボクもおんせんにつかってくるね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu399",
+        "title": "たいやきとつづぬい",
+        "caption": "きみはどこから来たの",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu400",
+        "title": "さかなのたいぐん つづぬい",
+        "caption": "みんなでひとつなんだね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu401",
+        "title": "うつぼとつづぬい",
+        "caption": "るりみたいにかくれていたよ",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu402",
+        "title": "そらとぶペンギン つづぬい",
+        "caption": "ボクも空にとびださなくちゃ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu403",
+        "title": "あまりにもかわいいつづぬい",
+        "caption": "ボクかわいい？",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu404",
+        "title": "祭壇 つづぬい",
+        "caption": "ふふ、うれしいな",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu405",
+        "title": "ツボぎんこ",
+        "caption": "なんなん...!",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu406",
+        "title": "恐竜発掘 つづぬい&すずぬい",
+        "caption": "きれいにほれたらチャレンジ成功です！",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu407",
+        "title": "おおきなぺきんだっくとつづぬい",
+        "caption": "わ、せいちょうしたんだね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu408",
+        "title": "爆発寸前のつづぬい",
+        "caption": "ボクなんなの",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu409",
+        "title": "おしゃれつづぬい",
+        "caption": "ボクかわいい？",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu410",
+        "title": "かんそうちゅう",
+        "caption": "せんたくものもたいへんなんだね...",
+        "rarity": "N"
+    },
+    {
+        "fileName": "tsuzu411",
+        "title": "たまごつづとつづぬい②",
+        "caption": "おんせんどうだった？",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu412",
+        "title": "爆発寸前のすずぬい",
+        "caption": "かちまちもうばくはつします！！！！！チェストーーーーーー！！！！！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu413",
+        "title": "トマティー さやぬい",
+        "caption": "サイズがちょっと大きいですね",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu414",
+        "title": "再開 つづぬい&ひのちた",
+        "caption": "しんゆうだよ",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu415",
+        "title": "サヤカサクサク",
+        "caption": "さやおいしそう...",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu416",
+        "title": "ハンバーガー つづぬい&さやぬい&すずぬい",
+        "caption": "おおきなばーがー",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu417",
+        "title": "大仏さまこんにちは",
+        "caption": "みんなをみまもっているんだね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu418",
+        "title": "大仏さまとすずぬい",
+        "caption": "あのくらいおおきくなりたいです...!",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu419",
+        "title": "もにっ⑤",
+        "caption": "すずのほっぺはあぼかーどみたいだね",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu420",
+        "title": "爆発寸前のさやぬい",
+        "caption": "なんなんですかなんなんですか！？",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu421",
+        "title": "すずぬいとにているせんぱい",
+        "caption": "ちぇすとっす～！",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu422",
+        "title": "なでなでつづぬい",
+        "caption": "なでられるのはなでるのとおなじくらいうれしい...",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu423",
+        "title": "New3Dつづぬい",
+        "caption": "またあったね",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu424",
+        "title": "まほうつかい つづぬい",
+        "caption": "さやにおしえてもらったんだ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu425",
+        "title": "かがみのむこうのボク",
+        "caption": "かがみのなかのボクは幸せそうなかおをしているよ",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu426",
+        "title": "てまぬい",
+        "caption": "足を引っ張ったら...何その顔。",
+        "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu427",
+        "title": "Fes×Rec LIVE つづぬい&さやぬい②",
+        "caption": "きらめきに、てをのばせばとどきそう",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu428",
+        "title": "つづぬいパーティー！",
+        "caption": "「「「「やっほ～、夕霧綴理だよ～」」」」",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu429",
+        "title": "ぺきんだっくにあいさつ つづぬい&さやぬい",
+        "caption": "こんにちは～。きみもここにいたいよね。",
+        "rarity": "SR"
+    },
+    {
+        "fileName": "tsuzu430",
+        "title": "ふるむーん つづぬい&さやぬい",
+        "caption": "月任せ",
+        "rarity": "UR"
+    },
+    {
+        "fileName": "tsuzu431",
+        "title": "横転つづぬい",
+        "caption": "わ～～～～～～～",
+        "rarity": "R"
     }
 ]
