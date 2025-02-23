@@ -320,6 +320,13 @@ button:active {
     width: 90%;
 }
 
+#shareMessage {
+    text-align: center;
+    font-size: 12px;  /* 小さめのフォントサイズ */
+    color: #666;  /* 少し控えめな色 */
+    margin: 5px 0; /* 余白を小さくする */
+}
+
 /* ボタンのホバー状態 */
 #returnToTitle:hover {
     background-color: #333; /* ホバー時の背景色 */
