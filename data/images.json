@@ -1586,7 +1586,7 @@
     {
         "fileName": "tsuzu265",
         "title": "金沢スタジアム つづぬい&さやぬい",
-        "caption": "つやつやなよるだ",
+        "caption": "もえさかるほのおがぶつかりあうばしょ",
         "rarity": "R"
     },
     {
@@ -1665,7 +1665,7 @@
         "fileName": "tsuzu278",
         "title": "飛び立つツバサ つづぬい",
         "caption": "世界に飛び立つ 伝統文化",
-        "rarity": "UR"
+        "rarity": "SR"
     },
     {
         "fileName": "tsuzu279",
@@ -2584,5 +2584,23 @@
         "title": "横転つづぬい",
         "caption": "わ～～～～～～～",
         "rarity": "R"
+    },
+    {
+        "fileName": "tsuzu432",
+        "title": "365Days つづぬい",
+        "caption": "キミとなら”まいにち”がキラキラであふれるから",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu433",
+        "title": "365Days さやぬい",
+        "caption": "自分らしさを信じ続けてく 勇気を教えてくれてありがとう 今伝えたいよ",
+        "rarity": "TR"
+    },
+    {
+        "fileName": "tsuzu434",
+        "title": "365Days すずぬい",
+        "caption": "出逢った日のまぶしいあの姿を 今追いかけよう",
+        "rarity": "TR"
     }
 ]
