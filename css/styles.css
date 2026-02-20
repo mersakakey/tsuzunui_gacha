@@ -350,3 +350,179 @@ button:active {
 .blueCardN {
     background-color: rgba(50, 80, 255, 0.5); /* 例: 緑 */
 }
+
+/* 10連ガチャボタン */
+.ten-draw-button {
+    background-color: #ff6b35;
+    margin-top: 10px;
+}
+
+.ten-draw-button:hover {
+    background-color: #e55a2b;
+}
+
+/* 10連ガチャ演出グリッド */
+.ten-draw-animation-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+    padding: 8px;
+    width: 100%;
+    max-height: 60%;
+}
+
+.ten-draw-animation-cell {
+    position: relative;
+    aspect-ratio: 1/1;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.ten-draw-animation-cell .cell-card-pack {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 60%;
+    background: url('../images/card-pack.png') no-repeat center center;
+    background-size: contain;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.ten-draw-animation-cell .cell-blue-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 70%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 6px;
+}
+
+.ten-draw-animation-cell .cell-result-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+    z-index: 3;
+    border-radius: 6px;
+}
+
+/* セル用アニメーション */
+@keyframes cellShowPack {
+    0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+    50% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+    100% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+}
+
+@keyframes cellShowBlueCard {
+    0% { opacity: 0; box-shadow: none; }
+    50% { opacity: 1; box-shadow: var(--blue-card-shadow, 0 0 15px rgba(0, 0, 255, 0.8)); }
+    100% { opacity: 0; box-shadow: none; }
+}
+
+@keyframes cellShowResult {
+    0% { opacity: 0; transform: translate(-50%, -50%) scale(0.6); }
+    100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+#tenDrawProgress {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* 10連ガチャ結果グリッド */
+.ten-draw-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+    padding: 8px;
+    max-height: 60%;
+    overflow-y: auto;
+}
+
+.ten-draw-card {
+    position: relative;
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    aspect-ratio: 1/1;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ten-draw-card:hover {
+    transform: scale(1.05);
+}
+
+.ten-draw-card img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.ten-draw-card .rarity-badge {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.rarity-TR { background-color: rgba(255, 0, 0, 0.9); }
+.rarity-BR, .rarity-UR { background-color: rgba(190, 12, 255, 0.9); }
+.rarity-SR { background-color: rgba(255, 200, 0, 0.9); }
+.rarity-R, .rarity-N { background-color: rgba(50, 80, 255, 0.9); }
+
+#tenDrawActions {
+    margin-top: 15px;
+}
+
+#tenDrawActions button {
+    margin: 5px;
+}
+
+/* スマホ向け10連ガチャ調整 */
+@media screen and (max-width: 600px) {
+    .ten-draw-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 4px;
+        padding: 5px;
+    }
+
+    .ten-draw-card .rarity-badge {
+        font-size: 8px;
+        padding: 1px 4px;
+    }
+
+    #tenDrawCardPack {
+        width: 150px;
+        height: 225px;
+    }
+
+    #tenDrawBlueCard {
+        width: 140px;
+        height: 210px;
+    }
+}

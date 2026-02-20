@@ -15,7 +15,8 @@
     <div id="titleScreen" class="container">
         <h2>まいにちつづぬいガチャ</h2>
         <img id="titleImage" src="images/title.png" alt="タイトル画像">
-        <button id="startButton">スタート</button>
+        <button id="startButton">ガチャを引く</button>
+        <button id="tenDrawButton" class="ten-draw-button">10連ガチャ</button>
     </div>
 
     <div id="mainScreen" class="container" style="display: none;">
@@ -40,7 +41,25 @@
         <h2 id="displayTitle"></h2>
         <p id="displayCaption"></p>
         <img id="displayImage" src="" alt="表示画像">
+        <button id="returnToTenDrawResult" class="retry-button" style="display: none;">10連結果に戻る</button>
         <button id="returnToTitle" class="title-button">タイトルに戻る</button>
+    </div>
+
+    <!-- 10連ガチャ演出画面 -->
+    <div id="tenDrawScreen" class="container" style="display: none;">
+        <h2 id="tenDrawTitle">10連ガチャ</h2>
+        <div id="tenDrawAnimationGrid" class="ten-draw-animation-grid"></div>
+        <p id="tenDrawProgress"></p>
+    </div>
+
+    <!-- 10連ガチャ結果画面 -->
+    <div id="tenDrawResultScreen" class="container" style="display: none;">
+        <h2>10連ガチャ結果</h2>
+        <div id="tenDrawGrid" class="ten-draw-grid"></div>
+        <div id="tenDrawActions">
+            <button id="tenDrawRetryButton" class="retry-button">もう一度10連</button>
+            <button id="tenDrawReturnButton" class="title-button">タイトルに戻る</button>
+        </div>
     </div>
 
     <script src="js/script.js"></script>

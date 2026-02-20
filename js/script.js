@@ -19,8 +19,19 @@ const displayTitle = document.getElementById('displayTitle');
 const displayCaption = document.getElementById('displayCaption');
 const imageDisplay = document.getElementById('imageDisplay');
 
+// 10連ガチャ用要素
+const tenDrawButton = document.getElementById("tenDrawButton");
+const tenDrawScreen = document.getElementById("tenDrawScreen");
+const tenDrawResultScreen = document.getElementById("tenDrawResultScreen");
+const tenDrawGrid = document.getElementById("tenDrawGrid");
+const tenDrawProgress = document.getElementById("tenDrawProgress");
+const tenDrawRetryButton = document.getElementById("tenDrawRetryButton");
+const tenDrawReturnButton = document.getElementById("tenDrawReturnButton");
+const returnToTenDrawResultButton = document.getElementById("returnToTenDrawResult");
+
 let imageData = [];
 let currentImageId = '';
+let tenDrawResults = []; // 10連ガチャの結果を保存
 
 
 // JSONファイルから画像データを読み込む関数
@@ -324,3 +335,205 @@ drawButton.addEventListener("click", drawGacha);
 retryButton.addEventListener("click", retryGacha);
 returnButtonElement.addEventListener("click", returnToTitle);
 shareButton.addEventListener("click", shareResult);
+
+// 10連ガチャのイベントリスナー
+tenDrawButton.addEventListener("click", startTenDraw);
+tenDrawRetryButton.addEventListener("click", startTenDraw);
+tenDrawReturnButton.addEventListener("click", returnToTitleFromTenDraw);
+returnToTenDrawResultButton.addEventListener("click", returnToTenDrawResultScreen);
+
+// 10連ガチャを開始する関数
+function startTenDraw() {
+    if (imageData.length === 0) return;
+
+    // 画面切り替え
+    titleScreen.style.display = "none";
+    tenDrawResultScreen.style.display = "none";
+    tenDrawScreen.style.display = "block";
+
+    // 結果配列をリセット
+    tenDrawResults = [];
+
+    // 10枚のカードをランダムに選択
+    for (let i = 0; i < 10; i++) {
+        const randomIndex = Math.floor(Math.random() * imageData.length);
+        tenDrawResults.push(imageData[randomIndex]);
+    }
+
+    // グリッドを作成
+    const animationGrid = document.getElementById('tenDrawAnimationGrid');
+    animationGrid.innerHTML = '';
+
+    // 10個のセルを作成
+    for (let i = 0; i < 10; i++) {
+        const cell = document.createElement('div');
+        cell.className = 'ten-draw-animation-cell';
+        cell.id = `cell-${i}`;
+        cell.innerHTML = `
+            <div class="cell-card-pack"></div>
+            <div class="cell-blue-card"></div>
+            <img class="cell-result-image" src="${tenDrawResults[i].fileName}" alt="">
+        `;
+        animationGrid.appendChild(cell);
+    }
+
+    // 進捗表示を初期化
+    tenDrawProgress.textContent = '';
+
+    // 順番に演出を開始
+    playTenDrawGridAnimation(0);
+}
+
+// 10連ガチャのグリッド演出
+function playTenDrawGridAnimation(index) {
+    if (index >= 10) {
+        // 全ての演出が終わったら結果画面を表示
+        setTimeout(() => {
+            showTenDrawResults();
+        }, 1000);
+        return;
+    }
+
+    const cell = document.getElementById(`cell-${index}`);
+    const cardPack = cell.querySelector('.cell-card-pack');
+    const blueCard = cell.querySelector('.cell-blue-card');
+    const resultImage = cell.querySelector('.cell-result-image');
+    const selectedItem = tenDrawResults[index];
+
+    // 進捗表示
+    tenDrawProgress.textContent = `${index + 1} / 10`;
+
+    // 青いカードの色を設定
+    blueCard.classList.remove('blueCardTSUZU', 'blueCardBR', 'blueCardSR', 'blueCardN');
+    switch (selectedItem.rarity) {
+        case 'TR':
+            blueCard.classList.add('blueCardTSUZU');
+            blueCard.style.setProperty('--blue-card-shadow', '0 0 15px rgba(255, 0, 0, 0.8)');
+            break;
+        case 'BR':
+        case 'UR':
+            blueCard.classList.add('blueCardBR');
+            blueCard.style.setProperty('--blue-card-shadow', '0 0 15px rgba(150, 0, 255, 0.8)');
+            break;
+        case 'SR':
+            blueCard.classList.add('blueCardSR');
+            blueCard.style.setProperty('--blue-card-shadow', '0 0 15px rgba(255, 255, 0, 0.8)');
+            break;
+        default:
+            blueCard.classList.add('blueCardN');
+            blueCard.style.setProperty('--blue-card-shadow', '0 0 15px rgba(50, 80, 255, 0.8)');
+            break;
+    }
+
+    // アニメーション実行
+    cardPack.style.animation = "cellShowPack 0.8s forwards";
+
+    setTimeout(() => {
+        blueCard.style.animation = "cellShowBlueCard 0.8s forwards";
+    }, 400);
+
+    setTimeout(() => {
+        resultImage.style.animation = "cellShowResult 0.5s forwards";
+        // レアリティに応じたエフェクト
+        playRarityEffect(selectedItem.rarity);
+    }, 800);
+
+    // 次のカードへ（1.2秒後）
+    setTimeout(() => {
+        playTenDrawGridAnimation(index + 1);
+    }, 1200);
+}
+
+// レアリティに応じたエフェクトを再生
+function playRarityEffect(rarity) {
+    if (rarity === 'BR' || rarity === 'UR') {
+        confetti({
+            particleCount: 30,
+            spread: 40,
+            origin: { y: 0.6 }
+        });
+    } else if (rarity === 'TR') {
+        confetti({
+            particleCount: 20,
+            angle: 60,
+            spread: 30,
+            origin: { x: 0 },
+            colors: ['#bb0000', '#ffffff']
+        });
+        confetti({
+            particleCount: 20,
+            angle: 120,
+            spread: 30,
+            origin: { x: 1 },
+            colors: ['#bb0000', '#ffffff']
+        });
+    } else if (rarity === 'SR') {
+        confetti({
+            particleCount: 20,
+            spread: 360,
+            ticks: 30,
+            gravity: 0,
+            decay: 0.94,
+            startVelocity: 15,
+            colors: ['FFE400', 'FFBD00', 'E89400'],
+            shapes: ['star'],
+            origin: { y: 0.5 }
+        });
+    }
+}
+
+// 10連ガチャ結果画面を表示
+function showTenDrawResults() {
+    tenDrawScreen.style.display = "none";
+    tenDrawResultScreen.style.display = "block";
+
+    // グリッドをクリア
+    tenDrawGrid.innerHTML = '';
+
+    // 10枚のカードを表示
+    tenDrawResults.forEach((item) => {
+        const card = document.createElement('div');
+        card.className = 'ten-draw-card';
+        card.innerHTML = `
+            <img src="${item.fileName}" alt="${item.title}">
+            <span class="rarity-badge rarity-${item.rarity}">${item.rarity}</span>
+        `;
+
+        // クリックで詳細画面に遷移
+        card.addEventListener('click', () => {
+            showCardDetail(item);
+        });
+
+        tenDrawGrid.appendChild(card);
+    });
+}
+
+// カード詳細を表示（10連ガチャから）
+function showCardDetail(item) {
+    tenDrawResultScreen.style.display = "none";
+    imageDisplay.style.display = "block";
+
+    displayImage.src = item.fileName;
+    displayTitle.textContent = `[${item.rarity}]:${item.title}`;
+    displayCaption.textContent = `"${item.caption}"`;
+
+    // 「10連結果に戻る」ボタンを表示
+    returnToTenDrawResultButton.style.display = "inline-block";
+}
+
+// 10連結果画面に戻る
+function returnToTenDrawResultScreen() {
+    imageDisplay.style.display = "none";
+    tenDrawResultScreen.style.display = "block";
+    // ボタンを非表示に戻す
+    returnToTenDrawResultButton.style.display = "none";
+}
+
+// タイトルに戻る（10連ガチャから）
+function returnToTitleFromTenDraw() {
+    tenDrawResultScreen.style.display = "none";
+    tenDrawScreen.style.display = "none";
+    titleScreen.style.display = "block";
+    // 10連結果ボタンを非表示に戻す
+    returnToTenDrawResultButton.style.display = "none";
+}
