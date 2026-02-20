@@ -41,6 +41,10 @@
         <h2 id="displayTitle"></h2>
         <p id="displayCaption"></p>
         <img id="displayImage" src="" alt="表示画像">
+        <div id="tenDrawShareSection" style="display: none;">
+            <p class="share-message-text">スクショをとってシェアしてね</p>
+            <button id="tenDrawShareButton" class="share-button">Xにシェア</button>
+        </div>
         <button id="returnToTenDrawResult" class="retry-button" style="display: none;">10連結果に戻る</button>
         <button id="returnToTitle" class="title-button">タイトルに戻る</button>
     </div>
@@ -55,6 +59,7 @@
     <!-- 10連ガチャ結果画面 -->
     <div id="tenDrawResultScreen" class="container" style="display: none;">
         <h2>10連ガチャ結果</h2>
+        <p class="ten-draw-hint">画像タップでくわしくみれるよ</p>
         <div id="tenDrawGrid" class="ten-draw-grid"></div>
         <div id="tenDrawActions">
             <button id="tenDrawRetryButton" class="retry-button">もう一度10連</button>

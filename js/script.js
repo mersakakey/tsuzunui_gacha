@@ -28,10 +28,13 @@ const tenDrawProgress = document.getElementById("tenDrawProgress");
 const tenDrawRetryButton = document.getElementById("tenDrawRetryButton");
 const tenDrawReturnButton = document.getElementById("tenDrawReturnButton");
 const returnToTenDrawResultButton = document.getElementById("returnToTenDrawResult");
+const tenDrawShareSection = document.getElementById("tenDrawShareSection");
+const tenDrawShareButton = document.getElementById("tenDrawShareButton");
 
 let imageData = [];
 let currentImageId = '';
 let tenDrawResults = []; // 10連ガチャの結果を保存
+let currentDetailItem = null; // 現在表示中の詳細アイテム
 
 
 // JSONファイルから画像データを読み込む関数
@@ -341,6 +344,7 @@ tenDrawButton.addEventListener("click", startTenDraw);
 tenDrawRetryButton.addEventListener("click", startTenDraw);
 tenDrawReturnButton.addEventListener("click", returnToTitleFromTenDraw);
 returnToTenDrawResultButton.addEventListener("click", returnToTenDrawResultScreen);
+tenDrawShareButton.addEventListener("click", shareTenDrawDetail);
 
 // 10連ガチャを開始する関数
 function startTenDraw() {
@@ -434,8 +438,8 @@ function playTenDrawGridAnimation(index) {
 
     setTimeout(() => {
         resultImage.style.animation = "cellShowResult 0.5s forwards";
-        // レアリティに応じたエフェクト
-        playRarityEffect(selectedItem.rarity);
+        // レアリティに応じたエフェクト（セルの位置を渡す）
+        playRarityEffect(selectedItem.rarity, cell);
     }, 800);
 
     // 次のカードへ（1.2秒後）
@@ -445,26 +449,36 @@ function playTenDrawGridAnimation(index) {
 }
 
 // レアリティに応じたエフェクトを再生
-function playRarityEffect(rarity) {
+function playRarityEffect(rarity, cell) {
+    // セルの位置を画面上の相対座標（0-1）に変換
+    let originX = 0.5;
+    let originY = 0.5;
+
+    if (cell) {
+        const rect = cell.getBoundingClientRect();
+        originX = (rect.left + rect.width / 2) / window.innerWidth;
+        originY = (rect.top + rect.height / 2) / window.innerHeight;
+    }
+
     if (rarity === 'BR' || rarity === 'UR') {
         confetti({
             particleCount: 30,
             spread: 40,
-            origin: { y: 0.6 }
+            origin: { x: originX, y: originY }
         });
     } else if (rarity === 'TR') {
         confetti({
             particleCount: 20,
             angle: 60,
             spread: 30,
-            origin: { x: 0 },
+            origin: { x: originX - 0.05, y: originY },
             colors: ['#bb0000', '#ffffff']
         });
         confetti({
             particleCount: 20,
             angle: 120,
             spread: 30,
-            origin: { x: 1 },
+            origin: { x: originX + 0.05, y: originY },
             colors: ['#bb0000', '#ffffff']
         });
     } else if (rarity === 'SR') {
@@ -477,7 +491,7 @@ function playRarityEffect(rarity) {
             startVelocity: 15,
             colors: ['FFE400', 'FFBD00', 'E89400'],
             shapes: ['star'],
-            origin: { y: 0.5 }
+            origin: { x: originX, y: originY }
         });
     }
 }
@@ -517,7 +531,11 @@ function showCardDetail(item) {
     displayTitle.textContent = `[${item.rarity}]:${item.title}`;
     displayCaption.textContent = `"${item.caption}"`;
 
-    // 「10連結果に戻る」ボタンを表示
+    // 現在のアイテムを保存（シェア用）
+    currentDetailItem = item;
+
+    // 「シェアセクション」と「10連結果に戻る」ボタンを表示
+    tenDrawShareSection.style.display = "block";
     returnToTenDrawResultButton.style.display = "inline-block";
 }
 
@@ -525,8 +543,10 @@ function showCardDetail(item) {
 function returnToTenDrawResultScreen() {
     imageDisplay.style.display = "none";
     tenDrawResultScreen.style.display = "block";
-    // ボタンを非表示に戻す
+    // ボタンとシェアセクションを非表示に戻す
     returnToTenDrawResultButton.style.display = "none";
+    tenDrawShareSection.style.display = "none";
+    currentDetailItem = null;
 }
 
 // タイトルに戻る（10連ガチャから）
@@ -534,6 +554,19 @@ function returnToTitleFromTenDraw() {
     tenDrawResultScreen.style.display = "none";
     tenDrawScreen.style.display = "none";
     titleScreen.style.display = "block";
-    // 10連結果ボタンを非表示に戻す
+    // 10連結果ボタンとシェアセクションを非表示に戻す
     returnToTenDrawResultButton.style.display = "none";
+    tenDrawShareSection.style.display = "none";
+    currentDetailItem = null;
+}
+
+// 10連ガチャ詳細画面からシェア
+function shareTenDrawDetail() {
+    if (!currentDetailItem) return;
+
+    const imageId = currentDetailItem.fileName.split('/').pop().split('.')[0];
+    const url = `${encodeURIComponent(window.location.href.split('?')[0])}?id=${imageId}`;
+    const text = encodeURIComponent(`[${currentDetailItem.rarity}]:${currentDetailItem.title}がでたよ。\n#まいにちつづぬいガチャ\n`);
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+    window.open(twitterUrl, "_blank");
 }
