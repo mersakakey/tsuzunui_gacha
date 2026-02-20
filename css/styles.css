@@ -542,13 +542,12 @@ button:active {
 
 /* スマホ向け10連ガチャ調整 */
 @media screen and (max-width: 600px) {
-    /* 演出グリッド - スマホでは2列5行に変更して画像を大きく */
+    /* 演出グリッド - スマホでは3列4行に */
     .ten-draw-animation-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        gap: 6px;
-        padding: 8px;
-        max-height: 65%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        padding: 6px;
+        max-height: 60%;
     }
 
     .ten-draw-animation-cell {
@@ -556,17 +555,16 @@ button:active {
     }
 
     .ten-draw-animation-cell .cell-result-image {
-        max-width: 98%;
-        max-height: 98%;
+        max-width: 92%;
+        max-height: 92%;
     }
 
-    /* 結果グリッド - スマホでは2列5行に変更して画像を大きく */
+    /* 結果グリッド - スマホでは3列4行に */
     .ten-draw-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        gap: 6px;
-        padding: 8px;
-        max-height: 65%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        padding: 6px;
+        max-height: 60%;
     }
 
     .ten-draw-card {
@@ -574,13 +572,13 @@ button:active {
     }
 
     .ten-draw-card img {
-        max-width: 98%;
-        max-height: 98%;
+        max-width: 92%;
+        max-height: 92%;
     }
 
     .ten-draw-card .rarity-badge {
-        font-size: 10px;
-        padding: 2px 5px;
+        font-size: 9px;
+        padding: 2px 4px;
     }
 
     /* 詳細画面のスマホ対応 */
