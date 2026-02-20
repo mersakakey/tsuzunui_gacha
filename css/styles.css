@@ -545,40 +545,42 @@ button:active {
     /* 演出グリッド - スマホでは3列4行に */
     .ten-draw-animation-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 5px;
-        padding: 6px;
-        max-height: 60%;
+        gap: 4px;
+        padding: 4px;
+        max-height: 55%;
     }
 
     .ten-draw-animation-cell {
         aspect-ratio: 1/1;
+        max-height: 70px;
     }
 
     .ten-draw-animation-cell .cell-result-image {
-        max-width: 92%;
-        max-height: 92%;
+        max-width: 85%;
+        max-height: 85%;
     }
 
     /* 結果グリッド - スマホでは3列4行に */
     .ten-draw-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 5px;
-        padding: 6px;
-        max-height: 60%;
+        gap: 4px;
+        padding: 4px;
+        max-height: 55%;
     }
 
     .ten-draw-card {
         aspect-ratio: 1/1;
+        max-height: 70px;
     }
 
     .ten-draw-card img {
-        max-width: 92%;
-        max-height: 92%;
+        max-width: 85%;
+        max-height: 85%;
     }
 
     .ten-draw-card .rarity-badge {
-        font-size: 9px;
-        padding: 2px 4px;
+        font-size: 8px;
+        padding: 1px 3px;
     }
 
     /* 詳細画面のスマホ対応 */
