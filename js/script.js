@@ -358,8 +358,8 @@ function startTenDraw() {
     // 結果配列をリセット
     tenDrawResults = [];
 
-    // 10枚のカードをランダムに選択
-    for (let i = 0; i < 10; i++) {
+    // 9枚のカードをランダムに選択
+    for (let i = 0; i < 9; i++) {
         const randomIndex = Math.floor(Math.random() * imageData.length);
         tenDrawResults.push(imageData[randomIndex]);
     }
@@ -368,8 +368,8 @@ function startTenDraw() {
     const animationGrid = document.getElementById('tenDrawAnimationGrid');
     animationGrid.innerHTML = '';
 
-    // 10個のセルを作成
-    for (let i = 0; i < 10; i++) {
+    // 9個のセルを作成
+    for (let i = 0; i < 9; i++) {
         const cell = document.createElement('div');
         cell.className = 'ten-draw-animation-cell';
         cell.id = `cell-${i}`;
@@ -388,9 +388,9 @@ function startTenDraw() {
     playTenDrawGridAnimation(0);
 }
 
-// 10連ガチャのグリッド演出
+// 9連ガチャのグリッド演出
 function playTenDrawGridAnimation(index) {
-    if (index >= 10) {
+    if (index >= 9) {
         // 全ての演出が終わったら結果画面を表示
         setTimeout(() => {
             showTenDrawResults();
@@ -405,7 +405,7 @@ function playTenDrawGridAnimation(index) {
     const selectedItem = tenDrawResults[index];
 
     // 進捗表示
-    tenDrawProgress.textContent = `${index + 1} / 10`;
+    tenDrawProgress.textContent = `${index + 1} / 9`;
 
     // 青いカードの色を設定
     blueCard.classList.remove('blueCardTSUZU', 'blueCardBR', 'blueCardSR', 'blueCardN');

@@ -540,47 +540,47 @@ button:active {
     margin: 5px;
 }
 
-/* スマホ向け10連ガチャ調整 */
+/* スマホ向け9連ガチャ調整 */
 @media screen and (max-width: 600px) {
-    /* 演出グリッド - スマホでは3列4行に */
+    /* 演出グリッド - スマホでは3列3行 */
     .ten-draw-animation-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 4px;
-        padding: 4px;
+        gap: 5px;
+        padding: 5px;
         max-height: 55%;
     }
 
     .ten-draw-animation-cell {
         aspect-ratio: 1/1;
-        max-height: 70px;
+        max-height: 90px;
     }
 
     .ten-draw-animation-cell .cell-result-image {
-        max-width: 85%;
-        max-height: 85%;
+        max-width: 90%;
+        max-height: 90%;
     }
 
-    /* 結果グリッド - スマホでは3列4行に */
+    /* 結果グリッド - スマホでは3列3行 */
     .ten-draw-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 4px;
-        padding: 4px;
+        gap: 5px;
+        padding: 5px;
         max-height: 55%;
     }
 
     .ten-draw-card {
         aspect-ratio: 1/1;
-        max-height: 70px;
+        max-height: 90px;
     }
 
     .ten-draw-card img {
-        max-width: 85%;
-        max-height: 85%;
+        max-width: 90%;
+        max-height: 90%;
     }
 
     .ten-draw-card .rarity-badge {
-        font-size: 8px;
-        padding: 1px 3px;
+        font-size: 9px;
+        padding: 2px 4px;
     }
 
     /* 詳細画面のスマホ対応 */
